@@ -1,56 +1,37 @@
-<<<<<<< HEAD
-Sat Sep 15 12:13:22 2018
+Sat Sep 15 13:31:17 2018
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
-=======
-Sat Sep 15 13:14:43 2018
-Linux-4.18.0-1-amd64-x86_64-with-debian-buster-sid
-Ren'Py 7.0.0.196
->>>>>>> bf4b96fe6fca46b3fe83fa6243616c6be8aa5c8d
  
 
-Bootstrap to the start of init.init took 0.07s
+Bootstrap to the start of init.init took 0.06s
 Early init took 0.00s
-<<<<<<< HEAD
 Loader init took 0.02s
-Loading error handling took 0.02s
-Loading script took 0.07s
+Loading error handling took 0.03s
+Loading script took 0.69s
 Loading persistent took 0.01s
-=======
-Loader init took 0.00s
-Loading error handling took 0.05s
-Loading script took 0.71s
-Loading save slot metadata. took 0.00s
-Loading persistent took 0.00s
->>>>>>> bf4b96fe6fca46b3fe83fa6243616c6be8aa5c8d
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.07s
-Loading analysis data took 0.03s
+Running init code took 0.11s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-<<<<<<< HEAD
-Dump and make backups. took 0.05s
-=======
-Backing up script files to '/home/awk/.renpy/backups/CS-Bounciness-Vol.3':
-Dump and make backups. took 0.02s
->>>>>>> bf4b96fe6fca46b3fe83fa6243616c6be8aa5c8d
+Backing up script files to 'C:\\Users\\Xander\\AppData\\Roaming/RenPy/backups\\CS-Bounciness-Vol.3':
+Dump and make backups. took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 DPI scale factor: 1.000000
-<<<<<<< HEAD
-Creating interface object took 0.08s
+Creating interface object took 0.05s
 Cleaning stores took 0.00s
 Init translation took 0.04s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.04s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.04s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.01s
+Interface start took 0.00s
 
 primary display bounds: (0, 0, 1920, 1080)
 Windowed mode.
@@ -60,30 +41,6 @@ Renderer: 'GeForce GTX 1050 Ti/PCIe/SSE2'
 Version: '4.6.0 NVIDIA 388.71'
 Display Info: <Info({'blit_sw_CC': False, 'refresh_rate': 60, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 1080, 'current_w': 1920, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
 Fixed-function is blacklisted.
-=======
-Creating interface object took 0.16s
-Cleaning stores took 0.00s
-Init translation took 0.01s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.03s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.01s
-Performance test:
-Interface start took 0.01s
-
-primary display bounds: (1920, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GTX 1080/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 390.87'
-Display Info: <Info({'blit_sw_CC': False, 'refresh_rate': 60, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680, 65280, 255, 0), 'current_h': 1440, 'current_w': 2560, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
->>>>>>> bf4b96fe6fca46b3fe83fa6243616c6be8aa5c8d
 Extensions:
     
     GL_AMD_multi_draw_indirect
@@ -285,11 +242,7 @@ Extensions:
     GL_EXT_gpu_shader4
     GL_EXT_import_sync_object
     GL_EXT_memory_object
-<<<<<<< HEAD
     GL_EXT_memory_object_win32
-=======
-    GL_EXT_memory_object_fd
->>>>>>> bf4b96fe6fca46b3fe83fa6243616c6be8aa5c8d
     GL_EXT_multi_draw_arrays
     GL_EXT_packed_depth_stencil
     GL_EXT_packed_float
@@ -303,11 +256,7 @@ Extensions:
     GL_EXT_rescale_normal
     GL_EXT_secondary_color
     GL_EXT_semaphore
-<<<<<<< HEAD
     GL_EXT_semaphore_win32
-=======
-    GL_EXT_semaphore_fd
->>>>>>> bf4b96fe6fca46b3fe83fa6243616c6be8aa5c8d
     GL_EXT_separate_shader_objects
     GL_EXT_separate_specular_color
     GL_EXT_shader_image_load_formatted
@@ -346,13 +295,8 @@ Extensions:
     GL_EXT_vertex_array
     GL_EXT_vertex_array_bgra
     GL_EXT_vertex_attrib_64bit
-<<<<<<< HEAD
     GL_EXT_win32_keyed_mutex
     GL_EXT_window_rectangles
-=======
-    GL_EXT_window_rectangles
-    GL_EXT_x11_sync_object
->>>>>>> bf4b96fe6fca46b3fe83fa6243616c6be8aa5c8d
     GL_IBM_rasterpos_clip
     GL_IBM_texture_mirrored_repeat
     GL_KHR_blend_equation_advanced
@@ -367,10 +311,7 @@ Extensions:
     GL_NVX_blend_equation_advanced_multi_draw_buffers
     GL_NVX_conditional_render
     GL_NVX_gpu_memory_info
-<<<<<<< HEAD
     GL_NVX_multigpu_info
-=======
->>>>>>> bf4b96fe6fca46b3fe83fa6243616c6be8aa5c8d
     GL_NVX_nvenc_interop
     GL_NV_ES1_1_compatibility
     GL_NV_ES3_1_compatibility
@@ -433,10 +374,6 @@ Extensions:
     GL_NV_query_resource_tag
     GL_NV_register_combiners
     GL_NV_register_combiners2
-<<<<<<< HEAD
-=======
-    GL_NV_robustness_video_memory_purge
->>>>>>> bf4b96fe6fca46b3fe83fa6243616c6be8aa5c8d
     GL_NV_sample_locations
     GL_NV_sample_mask_override_coverage
     GL_NV_shader_atomic_counters
@@ -462,10 +399,6 @@ Extensions:
     GL_NV_transform_feedback
     GL_NV_transform_feedback2
     GL_NV_uniform_buffer_unified_memory
-<<<<<<< HEAD
-=======
-    GL_NV_vdpau_interop
->>>>>>> bf4b96fe6fca46b3fe83fa6243616c6be8aa5c8d
     GL_NV_vertex_array_range
     GL_NV_vertex_array_range2
     GL_NV_vertex_attrib_integer_64bit
@@ -483,11 +416,8 @@ Extensions:
     GL_SGIX_depth_texture
     GL_SGIX_shadow
     GL_SUN_slice_accum
-<<<<<<< HEAD
     GL_WIN_swap_hint
     WGL_EXT_swap_control
-=======
->>>>>>> bf4b96fe6fca46b3fe83fa6243616c6be8aa5c8d
 Number of texture units: 4
 Using shader environment.
 Using copy RTT.
@@ -500,23 +430,12 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-<<<<<<< HEAD
 controller: '78696e70757401000000000000000000' 'XInput Controller' 1L
-Total time until interface ready: 1.1289999485s
+Total time until interface ready: 1.82999992371s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.074000 seconds.
 - Frame drawn at 0.075000 seconds.
-- Frame drawn at 0.081000 seconds.
-- Frame drawn at 0.098000 seconds.
-- 0.098000 seconds to render 5 frames.
-=======
-Total time until interface ready: 1.58143997192s
-- Target is 5 frames in 0.333333333333 seconds.
-- Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.015960 seconds.
-- Frame drawn at 0.033367 seconds.
-- Frame drawn at 0.049392 seconds.
-- Frame drawn at 0.066351 seconds.
-- 0.066351 seconds to render 5 frames.
->>>>>>> bf4b96fe6fca46b3fe83fa6243616c6be8aa5c8d
+- Frame drawn at 0.077000 seconds.
+- Frame drawn at 0.079000 seconds.
+- Frame drawn at 0.096000 seconds.
+- 0.096000 seconds to render 5 frames.
