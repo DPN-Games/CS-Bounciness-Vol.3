@@ -64,22 +64,22 @@ define gui.name_text_font = "gui/font/RifficFree-Bold.ttf"
 define gui.interface_text_font = "gui/font/Aller_Rg.ttf"
 
 ## The size of normal dialogue text.
-define gui.text_size = 28
+define gui.text_size = 24
 
 ## The size of character names.
-define gui.name_text_size = 42
+define gui.name_text_size = 24
 
 ## The size of text in the game's user interface.
-define gui.interface_text_size = 28
+define gui.interface_text_size = 24
 
 ## The size of labels in the game's user interface.
-define gui.label_text_size = 32
+define gui.label_text_size = 28
 
 ## The size of text on the notify screen.
-define gui.notify_text_size = 24
+define gui.notify_text_size = 16
 
 ## The size of the game's title.
-define gui.title_text_size = 75
+define gui.title_text_size = 38
 
 ## Main and Game Menus #########################################################
 
