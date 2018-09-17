@@ -44,6 +44,7 @@ image FatherDigBick = "characters/Digbick.png"
 ###################################
 #Background Declarations
 ###################################
+image BlackPlaceHolder = "background/BlackPlaceHolder.png"
 image LinusOffice = "background/the-linus-group-office.jpg"
 image InsideHortons = "background/inside-tim-hortons.jpg"
 image WeddingScene = "background/Wedding.jpg"
@@ -62,12 +63,11 @@ image CSDesk = "background/CSDesk.jpeg"
 
 label start:
 
+show BlackPlaceHolder
+
 "{i}Last time on CS Bounciness{/i}"
 
 "{i}CS looks across the street to see Linus Media Group.{/i}"
-
-hide Anno
-with easeoutleft
 
 CS "I have a lot of video editing experience, maybe I can get a job there."
 "{i}CS walks into the studio and asks for a job.{/i}"
@@ -135,6 +135,9 @@ with easeoutright
 hide FatherDigBick
 with easeoutbottom
 
+hide WeddingScene
+with fade
+
 show LinusOffice
 with fade
 
@@ -156,10 +159,8 @@ with easeoutright
 hide CS
 with easeoutleft
 
-show black
+hide LinusOffice
 with fade
-hide black
-with dissolve
 
 show LinusOfficeOutside
 with fade
@@ -174,10 +175,23 @@ Linus "Welcome to Linus Media Group, come on in, I'll show you your desk."
 
 CS "Thanks Linus."
 
+hide CS
+with easeoutleft
+
+hide Linus
+with easeoutright
+
 hide LinusOfficeOutside
 with dissolve
+
 show CSDesk
 with fade
+
+show CS at left
+with easeinleft
+
+show Linus at right
+with easeinright
 
 CS "Wow! I thought this was an office, why do I get such a cool desk?"
 
