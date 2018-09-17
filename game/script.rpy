@@ -91,6 +91,7 @@ with dissolve
 
 "{i}CS leaves and talks to Anno.{/i}"
 show InsideHortons
+with fade
 
 show Anno at center
 with easeintop
@@ -178,7 +179,7 @@ with dissolve
 show CSDesk
 with fade
 
-CS "Wow! I thought this was an office, why do I get such a cool desk?
+CS "Wow! I thought this was an office, why do I get such a cool desk?"
 
 Linus "Actually, this is our worst setup, you'll get upgraded after you've been here a while."
 
@@ -186,7 +187,7 @@ CS "Holy shit, really? This is way better than any setup I've seen, let alone ha
 
 Linus "You must've had really bad setups then, this only has 1080s, everyone else has 1080 TIs or Titans."
 
-CS "I have no problem with 1080s
+CS "I have absolutely no problem with 1080s"
 
 Linus "Well, enjoy!"
 
