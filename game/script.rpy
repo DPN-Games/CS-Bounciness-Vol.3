@@ -47,6 +47,8 @@ image FatherDigBick = "characters/Digbick.png"
 image LinusOffice = "background/the-linus-group-office.jpg"
 image InsideHortons = "background/inside-tim-hortons.jpg"
 image WeddingScene = "background/Wedding.jpg"
+image LinusOfficeOutside = "background/linusofficeoutside.jpeg"
+image CSDesk = "background/CSDesk.jpeg"
 ###################################
 #Background Declarations
 ###################################
@@ -131,3 +133,63 @@ with easeoutright
 
 hide FatherDigBick
 with easeoutbottom
+
+show LinusOffice
+with fade
+
+show CS at left
+with easeinleft
+
+show Linus at right
+with easeinright
+
+CS "Okay Linus, I got my proof of citizenship."
+
+Linus "Okay, you can start tomorrow. Sorry to make you get that, but I need my GTX Titans, eh."
+
+CS "It's okay, I get it. Thanks for the job, I'll see you tommorow."
+
+hide Linus 
+with easeoutright
+
+hide CS
+with easeoutleft
+
+show black
+with fade
+hide black
+with dissolve
+
+show LinusOfficeOutside
+with fade
+
+show CS at left
+with easeinleft
+
+show Linus at right
+with easeinright
+
+Linus "Welcome to Linus Media Group, come on in, I'll show you your desk."
+
+CS "Thanks Linus."
+
+hide LinusOfficeOutside
+with dissolve
+show CSDesk
+with fade
+
+CS "Wow! I thought this was an office, why do I get such a cool desk?
+
+Linus "Actually, this is our worst setup, you'll get upgraded after you've been here a while."
+
+CS "Holy shit, really? This is way better than any setup I've seen, let alone had."
+
+Linus "You must've had really bad setups then, this only has 1080s, everyone else has 1080 TIs or Titans."
+
+CS "I have no problem with 1080s
+
+Linus "Well, enjoy!"
+
+
+
+
