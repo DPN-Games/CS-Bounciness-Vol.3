@@ -187,13 +187,13 @@ CS "I guess I better get to work on editing, let's see what videos I need to edi
 
 CS "Let's see, I have the new TechQuickie video on how livestreaming works, or the video on how at least half of the keys on your keyboard should be macros......"
 
-CS {i}"Dammit Teran, you can edit your own macro fetish content."{/i}
+CS "{i}Dammit Teran, you can edit your own macro fetish content.{/i}"
 
 CS "I guess I'll edit the livestreaming one."
 
-{i}"CS starts working on editing the TechQuickie video and Linus comes in to check on him."{/i}
+"{i}CS starts working on editing the TechQuickie video and Linus comes in to check on him.{/i}"
 
-show Linus with fastdissolve
+show Linus at right with fastdissolve
 
 Linus "Hey CS, how's the new video coming along?"
 
@@ -209,7 +209,7 @@ CS "Sure, what parts do you need?"
 
 Linus "I'll leave the details up to you since you've done a lot of livestreaming, just get the highest end available."
 
-CS "Alright, I'll go get the parts, "
+CS "Alright, I'll go get the parts."
 
 hide Linus with fastdissolve
 
