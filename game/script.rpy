@@ -70,13 +70,13 @@ define fastdissolve = Dissolve(.3)
 
 label start:
 
-"{i}Last time on CS Bounciness{/i}"
+"{i}Last time on CS Bounciness...{/i}"
 
 show LinusOfficeOutside with fade
 
 "{i}CS looks across the street to see Linus Media Group.{/i}"
 
-CS "I have a lot of video editing experience, maybe I can get a job there."
+CS "I have a lot of video editing experience, maybe I can get a joj there."
 "{i}CS walks into the studio and asks for a job.{/i}"
 
 show LinusOffice with fade
@@ -177,15 +177,15 @@ CS "Holy shit, really? This is way better than any setup I've seen, let alone ha
 
 Linus "You must've had really bad setups then, this only has 1080s, everyone else has 1080 TIs or Titans."
 
-CS "I have absolutely no problem with 1080s"
+CS "I have absolutely no problem with 1080s."
 
 Linus "Well, enjoy!"
 
 hide Linus with fastdissolve
 
-CS "I guess I better get to work on editing, let's see what videos I need to edit...." 
+CS "I guess I better get to work on editing, let's see what videos I need to edit..."
 
-CS "Let's see, I have the new TechQuickie video on how livestreaming works, or the video on how at least half of the keys on your keyboard should be macros......"
+CS "Let's see, I have the new TechQuickie video on how livestreaming works, or the video on how at least half of the keys on your keyboard should be macros..."
 
 CS "{i}Dammit Teran, you can edit your own macro fetish content.{/i}"
 
@@ -218,4 +218,3 @@ hide CS with fastdissolve
 hide CSDesk with dissolve
 
 show Microcenter with fade
-
