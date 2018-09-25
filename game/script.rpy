@@ -50,6 +50,7 @@ image InsideHortons = "background/inside-tim-hortons.jpg"
 image WeddingScene = "background/Wedding.jpg"
 image LinusOfficeOutside = "background/linusofficeoutside.jpeg"
 image CSDesk = "background/CSDesk.jpeg"
+image Microcenter = "background/microcenter.png"
 ###################################
 #Background Declarations
 ###################################
@@ -80,26 +81,21 @@ CS "I have a lot of video editing experience, maybe I can get a job there."
 
 show LinusOffice with fade
 
-show Linus at center
-with fastdissolve
+show Linus at center with fastdissolve
 
 Linus "Sure, you can have a job, just show us proof of citizenship and you're ready to go!"
 CS "Colour is spelled with a u, eh."
 Linus "I need actual papers, the last time I hired someone who used that as proof of citizenship I got fined and had to sell one of my 1000s of GTX Titans."
 CS "Ummmm, I'll be right back."
 
-hide Linus
-with fastdissolve
+hide Linus with fastdissolve
 
-hide LinusOffice
-with dissolve
+hide LinusOffice with dissolve
 
 "{i}CS leaves and talks to Anno.{/i}"
-show InsideHortons
-with fade
+show InsideHortons with fade
 
-show Anno at center
-with fastdissolve
+show Anno at center with fastdissolve
 
 CS "I need to get proof of citizenship, or at least fake proof of citizenship before I can get a joj here."
 "{i}Anno gets an idea and begins to blush.{/i}"
@@ -108,49 +104,36 @@ CS "We don't have the money to get married!"
 Anno "We can have a cheap wedding at one of your Canadian fan's houses."
 CS "Well, I know Nova lives around here, so we can have the wedding at his house."
 
-hide Anno
-with fastdissolve
+hide Anno with fastdissolve
 
-hide InsideHortons
-with dissolve
+hide InsideHortons with dissolve
 
-show WeddingScene
-with fade
+show WeddingScene with fade
 
-show CS at left
-with fastdissolve
+show CS at left with fastdissolve
 
-show Anno at right
-with fastdissolve
+show Anno at right with fastdissolve
 
-show FatherDigBick at center
-with fastdissolve
+show FatherDigBick at center with fastdissolve
 
 FatherDigBick "Do you, Anno, take NAME REDACTED to be your lawfully wedded husband?"
 Anno "I do."
 FatherDigBick "And do you, NAME REDACTED, take Anno, to be your lawfully wedded husband?"
 CS "I do."
 
-hide CS
-with fastdissolve
+hide CS with fastdissolve
 
-hide Anno
-with fastdissolve
+hide Anno with fastdissolve
 
-hide FatherDigBick
-with fastdissolve
+hide FatherDigBick with fastdissolve
 
-hide WeddingScene
-with fade
+hide WeddingScene with fade
 
-show LinusOffice
-with fade
+show LinusOffice with fade
 
-show CS at left
-with fastdissolve
+show CS at left with fastdissolve
 
-show Linus at right
-with fastdissolve
+show Linus at right with fastdissolve
 
 CS "Okay Linus, I got my proof of citizenship."
 
@@ -158,45 +141,33 @@ Linus "Okay, you can start tomorrow. Sorry to make you get that, but I need my G
 
 CS "It's okay, I get it. Thanks for the job, I'll see you tommorow."
 
-hide Linus 
-with fastdissolve
+hide Linus with fastdissolve
 
-hide CS
-with fastdissolve
+hide CS with fastdissolve
 
-hide LinusOffice
-with dissolve
+hide LinusOffice with dissolve
 
-show LinusOfficeOutside
-with dissolve
+show LinusOfficeOutside with dissolve
 
-show CS at left
-with fastdissolve
+show CS at left with fastdissolve
 
-show Linus at right
-with fastdissolve
+show Linus at right with fastdissolve
 
 Linus "Welcome to Linus Media Group, come on in, I'll show you your desk."
 
 CS "Thanks Linus."
 
-hide CS
-with fastdissolve
+hide CS with fastdissolve
 
-hide Linus
-with fastdissolve
+hide Linus with fastdissolve
 
-hide LinusOfficeOutside
-with dissolve
+hide LinusOfficeOutside with dissolve
 
-show CSDesk
-with fade
+show CSDesk with fade
 
-show CS at left
-with fastdissolve
+show CS at left with fastdissolve
 
-show Linus at right
-with fastdissolve
+show Linus at right with fastdissolve
 
 CS "Wow! I thought this was an office, why do I get such a cool desk?"
 
@@ -210,6 +181,41 @@ CS "I have absolutely no problem with 1080s"
 
 Linus "Well, enjoy!"
 
+hide Linus with fastdissolve
 
+CS "I guess I better get to work on editing, let's see what videos I need to edit...." 
 
+CS "Let's see, I have the new TechQuickie video on how livestreaming works, or the video on how at least half of the keys on your keyboard should be macros......"
+
+CS {i}"Dammit Teran, you can edit your own macro fetish content."{/i}
+
+CS "I guess I'll edit the livestreaming one."
+
+{i}"CS starts working on editing the TechQuickie video and Linus comes in to check on him."{/i}
+
+show Linus with fastdissolve
+
+Linus "Hey CS, how's the new video coming along?"
+
+CS "It's going well, I have the background all done and I'm working on adding graphics and fixing audio."
+
+Linus "Wow! You're a fast worker, you'll get off of those old 1080s in no time."
+
+CS "Thanks Linus."
+
+Linus "Speaking of livestreaming, we need a new PC for the WAN Show, can you go and buy parts for one?"
+
+CS "Sure, what parts do you need?"
+
+Linus "I'll leave the details up to you since you've done a lot of livestreaming, just get the highest end available."
+
+CS "Alright, I'll go get the parts, "
+
+hide Linus with fastdissolve
+
+hide CS with fastdissolve
+
+hide CSDesk with dissolve
+
+show Microcenter with fade
 
