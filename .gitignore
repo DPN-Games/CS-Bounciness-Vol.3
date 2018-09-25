@@ -4,3 +4,6 @@ game/cache/screens.rpyb
 game/saves/navigation.json
 game/saves/persistent
 log.txt
+errors.txt
+game/saves/navigation.json
+log.txt

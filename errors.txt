@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 189: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-    CS "I have no problem with 1080s
+File "game/script.rpy", line 190: end of line expected.
+    CS {i}"Dammit Teran, you can edit your own macro fetish content."{/i}
+                                                                     ^
 
-Ren'Py Version: Ren'Py 7.0.0.196
-Sun Sep 16 22:18:51 2018
+File "game/script.rpy", line 194: end of line expected.
+    {i}"CS starts working on editing the TechQuickie video and Linus comes in to check on him."{/i}
+                                                                                               ^
+
+Ren'Py Version: Ren'Py 7.1.0.882
+Tue Sep 25 16:45:49 2018
