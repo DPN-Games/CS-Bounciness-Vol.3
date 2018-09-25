@@ -44,7 +44,7 @@ image FatherDigBick = "characters/Digbick.png"
 ###################################
 #Background Declarations
 ###################################
-image BlackPlaceHolder = "background/BlackPlaceHolder.png"
+image Black = "background/black.jpg"
 image LinusOffice = "background/the-linus-group-office.jpg"
 image InsideHortons = "background/inside-tim-hortons.jpg"
 image WeddingScene = "background/Wedding.jpg"
@@ -54,7 +54,13 @@ image CSDesk = "background/CSDesk.jpeg"
 #Background Declarations
 ###################################
 
-
+###################################
+#Background Declarations
+###################################
+define fastdissolve = Dissolve(.3)
+###################################
+#Background Declarations
+###################################
 
 
 ###################################
@@ -63,20 +69,19 @@ image CSDesk = "background/CSDesk.jpeg"
 
 label start:
 
-show BlackPlaceHolder
-
 "{i}Last time on CS Bounciness{/i}"
+
+show LinusOfficeOutside with fade
 
 "{i}CS looks across the street to see Linus Media Group.{/i}"
 
 CS "I have a lot of video editing experience, maybe I can get a job there."
 "{i}CS walks into the studio and asks for a job.{/i}"
 
-show LinusOffice
-with fade
+show LinusOffice with fade
 
 show Linus at center
-with easeintop
+with fastdissolve
 
 Linus "Sure, you can have a job, just show us proof of citizenship and you're ready to go!"
 CS "Colour is spelled with a u, eh."
@@ -84,7 +89,7 @@ Linus "I need actual papers, the last time I hired someone who used that as proo
 CS "Ummmm, I'll be right back."
 
 hide Linus
-with easeoutbottom
+with fastdissolve
 
 hide LinusOffice
 with dissolve
@@ -94,7 +99,7 @@ show InsideHortons
 with fade
 
 show Anno at center
-with easeintop
+with fastdissolve
 
 CS "I need to get proof of citizenship, or at least fake proof of citizenship before I can get a joj here."
 "{i}Anno gets an idea and begins to blush.{/i}"
@@ -104,7 +109,7 @@ Anno "We can have a cheap wedding at one of your Canadian fan's houses."
 CS "Well, I know Nova lives around here, so we can have the wedding at his house."
 
 hide Anno
-with easeoutbottom
+with fastdissolve
 
 hide InsideHortons
 with dissolve
@@ -113,13 +118,13 @@ show WeddingScene
 with fade
 
 show CS at left
-with easeinleft
+with fastdissolve
 
 show Anno at right
-with easeinright
+with fastdissolve
 
 show FatherDigBick at center
-with easeintop
+with fastdissolve
 
 FatherDigBick "Do you, Anno, take NAME REDACTED to be your lawfully wedded husband?"
 Anno "I do."
@@ -127,13 +132,13 @@ FatherDigBick "And do you, NAME REDACTED, take Anno, to be your lawfully wedded 
 CS "I do."
 
 hide CS
-with easeoutleft
+with fastdissolve
 
 hide Anno
-with easeoutright
+with fastdissolve
 
 hide FatherDigBick
-with easeoutbottom
+with fastdissolve
 
 hide WeddingScene
 with fade
@@ -142,10 +147,10 @@ show LinusOffice
 with fade
 
 show CS at left
-with easeinleft
+with fastdissolve
 
 show Linus at right
-with easeinright
+with fastdissolve
 
 CS "Okay Linus, I got my proof of citizenship."
 
@@ -154,32 +159,32 @@ Linus "Okay, you can start tomorrow. Sorry to make you get that, but I need my G
 CS "It's okay, I get it. Thanks for the job, I'll see you tommorow."
 
 hide Linus 
-with easeoutright
+with fastdissolve
 
 hide CS
-with easeoutleft
+with fastdissolve
 
 hide LinusOffice
-with fade
+with dissolve
 
 show LinusOfficeOutside
-with fade
+with dissolve
 
 show CS at left
-with easeinleft
+with fastdissolve
 
 show Linus at right
-with easeinright
+with fastdissolve
 
 Linus "Welcome to Linus Media Group, come on in, I'll show you your desk."
 
 CS "Thanks Linus."
 
 hide CS
-with easeoutleft
+with fastdissolve
 
 hide Linus
-with easeoutright
+with fastdissolve
 
 hide LinusOfficeOutside
 with dissolve
@@ -188,10 +193,10 @@ show CSDesk
 with fade
 
 show CS at left
-with easeinleft
+with fastdissolve
 
 show Linus at right
-with easeinright
+with fastdissolve
 
 CS "Wow! I thought this was an office, why do I get such a cool desk?"
 
