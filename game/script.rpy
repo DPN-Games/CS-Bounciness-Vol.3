@@ -175,9 +175,9 @@ Linus "Actually, this is our worst setup, you'll get upgraded after you've been 
 
 CS "Holy shit, really? This is way better than any setup I've seen, let alone had."
 
-Linus "You must've had really bad setups then, this only has 1080s, everyone else has 1080 TIs or Titans."
+Linus "You must've had really bad setups then, this only has 2080s, everyone else has 2080 TIs or GTX Titans."
 
-CS "I have absolutely no problem with 1080s."
+CS "I have absolutely no problem with 2080s."
 
 Linus "Well, enjoy!"
 
@@ -199,13 +199,17 @@ Linus "Hey CS, how's the new video coming along?"
 
 CS "It's going well, I have the background all done and I'm working on adding graphics and fixing audio."
 
-Linus "Wow! You're a fast worker, you'll get off of those old 1080s in no time."
+Linus "Wow! You're a fast worker, you'll get off of those old 2080s in no time."
 
 CS "Thanks Linus."
 
 Linus "Speaking of livestreaming, we need a new PC for the WAN Show, can you go and buy parts for one?"
 
 CS "Sure, what parts do you need?"
+
+Linus "We need eggs, milk..."
+
+Linus "Just kidding."
 
 Linus "I'll leave the details up to you since you've done a lot of livestreaming, just get the highest end available."
 
