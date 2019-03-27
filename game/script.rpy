@@ -218,3 +218,7 @@ hide CS with fastdissolve
 hide CSDesk with dissolve
 
 show Microcenter with fade
+
+show CS with fade
+
+CS "Okay gamers, we are buy some parts for our epic comuting machine. Let's go inside the magical concrete structure to buy some computing parts."
