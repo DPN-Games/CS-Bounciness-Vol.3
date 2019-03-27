@@ -51,6 +51,7 @@ image WeddingScene = "background/Wedding.jpg"
 image LinusOfficeOutside = "background/linusofficeoutside.jpeg"
 image CSDesk = "background/CSDesk.jpeg"
 image Microcenter = "background/microcenter.png"
+image LinusHallway = "background/LinusHallway.jpg"
 ###################################
 #Background Declarations
 ###################################
@@ -147,7 +148,7 @@ hide CS with fastdissolve
 
 hide LinusOffice with dissolve
 
-show LinusOfficeOutside with dissolve
+show LinusHallway with dissolve
 
 show CS at left with fastdissolve
 
@@ -161,7 +162,7 @@ hide CS with fastdissolve
 
 hide Linus with fastdissolve
 
-hide LinusOfficeOutside with dissolve
+hide LinusHallway with dissolve
 
 show CSDesk with fade
 
