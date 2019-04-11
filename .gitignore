@@ -4,3 +4,5 @@ game/saves/navigation.json
 game/saves/persistent
 log.txt
 errors.txt
+*.swn
+*.swo
