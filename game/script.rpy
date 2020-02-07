@@ -8,12 +8,13 @@ define CSSurprised = Character("CS188")
 define CSHappy = Character("CS188")
 define CSThink = Character("CS188")
 define CSYoung = Character("CS188")
-image CS = "characters/Cshocola.png"
+image CS = "characters/CSocola_Neutral.png"
 image CSPhone = "characters/CshocolaPhone.png"
 image CSInsane = "characters/Cs-ocolaInsane.png"
 image CSSurprised = "characters/Cs-ocolasuprised.png"
-image CSHappy = "characters/csocola_happy.png"
-image CSThink = "characters/Csocola_think.png"
+image CSHappy = "characters/CSocola_Happy.png"
+image CSDisappointed = "characters/CSocola_Disappointed"
+image CSThink = "characters/CSocola_Worried.png"
 image CSYoung = "characters/CsocolaYoung.png"
 image CSGuard = "characters/CSgod-ocola.png"
 ###################################
