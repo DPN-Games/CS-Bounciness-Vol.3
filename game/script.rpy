@@ -46,13 +46,13 @@ image FatherDigBick = "characters/Digbick.png"
 #Background Declarations
 ###################################
 image Black = "background/black.jpg"
-image LinusOffice = "background/the-linus-group-office.jpg"
-image InsideHortons = "background/inside-tim-hortons.jpg"
-image WeddingScene = "background/Wedding.jpg"
-image LinusOfficeOutside = "background/linusofficeoutside.jpeg"
-image CSDesk = "background/CSDesk.jpeg"
+image LinusOffice = "background/the_linus_group_office.jpg"
+image InsideHortons = "background/inside_tim_hortons.jpg"
+image WeddingScene = "background/wedding.jpg"
+image LinusOfficeOutside = "background/linusofficeoutside.jpg"
+image CSDesk = "background/CS_desk.jpeg"
 image Microcenter = "background/microcenter.png"
-image LinusHallway = "background/LinusHallway.jpg"
+image LinusHallway = "background/linus_hallway.jpg"
 ###################################
 #Background Declarations
 ###################################
