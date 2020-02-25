@@ -6,3 +6,5 @@ log.txt
 errors.txt
 *.swn
 *.swo
+
+*.save
