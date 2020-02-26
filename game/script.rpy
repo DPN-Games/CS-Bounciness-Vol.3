@@ -4,6 +4,7 @@
 #define varname = Character("name")
 define CS = Character("CS188")
 define Craptop = Character("Craptop")
+define Copguy = Character("Copguy")
 define Discord = Character("Discord")
 define Nova = Character("Nova")
 define CarGuy = Character("Car Guy")
@@ -331,32 +332,27 @@ label hohsisrevenge:
 
     label punch:
 
-    show CS at left
-    with easeinleft
-
-    show Wesley at right
-    with easeinright
     CS "Take this!"
 
     "{i}CS punches Wesley and knocks him out.{/i}"
 
-    hide Wesley
+    hide wesley
     with easeoutright
 
     CS "That'll teach you not to miss with a nerd's computer!"
 
-    show Ed at right
+    show edimg at right
     with easeinright
 
-    Ed "Hello, 911? My boss just got knocked out by a disgruntled customer and appears to be dying! Send help!"
+    ed "Hello, 911? My boss just got knocked out by a disgruntled customer and appears to be dying! Send help!"
 
     CS "Dammit! Ed's calling the police! I gotta go after him!"
 
-    Ed "911! Come quickly! He's chasing after me!"
+    ed "911! Come quickly! He's chasing after me!"
 
     "{i}The police arrive and CS runs away.{/i}"
 
-    hide Ed
+    hide edimg
     with easeoutright
 
     show Copguy at right
@@ -368,7 +364,7 @@ label hohsisrevenge:
 
     "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
 
-    hide CS
+    hide csdefault
     with easeoutleft
 
     hide Copguy
@@ -381,41 +377,35 @@ label hohsisrevenge:
 
     label chop:
 
-    show CS at left
-    with easeinleft
-
-    show Wesley at right
-    with easeinright
-
     CS "Take this!"
 
     "{i}CS chops Wesley and a fight ensues.{/i}"
 
-    Wesley "You'll pay for that!"
+    wes "You'll pay for that!"
 
     CS "Like hell I will!"
 
-    hide CS
+    hide csdefault
     with easeoutleft
 
-    hide Wesley
+    hide wesley
     with easeoutright
 
     hide Helipad
     with fade
 
-    show Office
+    scene office1
     with fade
 
-    show Ed at right
+    show ed at right
     with easeinright
 
-    Ed "911? Help! My boss just got attacked by a customer and now they're fighting right here in the office!"
+    ed "911? Help! My boss just got attacked by a customer and now they're fighting right here in the office!"
 
-    hide Ed
+    hide ed
     with easeoutright
 
-    show CS at left
+    show csdefault at left
     with easeinleft
 
     CS "Dammit! Ed's calling the police! I need to finish this fast!"
@@ -433,29 +423,35 @@ label hohsisrevenge:
 
     "{i}As CS is not actually the speedy Michael Rosen, he gets caught by the police.{/i}"
 
-    hide CS
+    hide csdefault
     with easeoutleft
 
     hide Copguy
     with easeoutright
 
-    hide Office
+    hide office1
     with dissolve
 
     jump jail
 
     label kick:
     $ renpy.movie_cutscene("kick.ogv")
+
+    hide wesley
+    with easeoutright
+
+    show ed at right
+    with easeinright
     
-    Ed "Hello, 911? My boss just got kicked off of our roof by a disgruntled customer and appears to be dying! Send help!"
+    ed "Hello, 911? My boss just got kicked off of our roof by a disgruntled customer and appears to be dying! Send help!"
 
     CS "Dammit! Ed's calling the police! I gotta go after him!"
 
-    Ed "911! Come quickly! He's chasing after me!"
+    ed "911! Come quickly! He's chasing after me!"
 
     "{i}The police arrive and CS runs away.{/i}"
 
-    hide Ed
+    hide ed
     with easeoutright
 
     show Copguy at right
@@ -467,7 +463,7 @@ label hohsisrevenge:
 
     "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
 
-    hide CS
+    hide csdefault
     with easeoutleft
 
     hide Copguy
@@ -480,36 +476,30 @@ label hohsisrevenge:
 
     label special:
 
-    show CS at left
-    with easeinleft
-
-    show Wesley at right
-    with easeinright
-
     CS "Take this!"
 
-    hide CS
+    hide csdefault
     with easeoutleft
 
-    hide Wesley
+    hide wesley
     with easeoutright
 
     hide Helipad
     with fade
 
-    show Office
+    scene office1
     with fade
 
     "{i}CS uses the magic of YTP to make Wesley shoot his employees.{/i}"
 
-    show CS at left
+    show csdefault at left
     with easeinleft
    
     CS "Dammit! The police are here! They must have heard the gun shots!!"
 
     "{i}The police arrive and CS runs away.{/i}"
 
-    hide Ed
+    hide ed
     with easeoutright
 
     show Copguy at right
@@ -521,13 +511,15 @@ label hohsisrevenge:
 
     "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
 
-    hide CS
+    hide csdefault
     with easeoutleft
 
     hide Copguy
     with easeoutright
 
-    hide Helipad
+    hide office1
     with dissolve
 
     jump jail
+
+    label jail:
