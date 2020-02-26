@@ -32,6 +32,11 @@ image cardealer = "background/CarDealer.jpg"
 image outside = "background/Cs_house.jpg"
 image doorclosed = "background/Door_closed.jpg"
 image dooropen = "background/Door_open.jpg"
+image factory = "background/Factory.jpg"
+image elevator = "background/elevator.jpg"
+image helipad = "background/Heli_pad.jpg"
+image black = "background/black.jpg"
+image office1 = "background/Office_1.jpg"
 
 #Movies.
 #image name = "dir/file.filetype"
@@ -48,6 +53,9 @@ image youngcs = "characters/Csocola_young(chibi).png"
 image wesley = "characters/wesley-chan.png"
 image edimg = "characters/Ed.png"
 image richard = "characters/Richard.png"
+image corndog = "characters/CornWorker.png"
+image diabeetus = "characters/DiaBeetusWorker.png"
+image grrx = "characters/GrrxWorker.png"
 
 label start:
     scene csroom
@@ -84,10 +92,11 @@ label start:
     CS "I could go outside, look at some flowers..."
     
     scene csroom_window
-    show csdefault
     CS "Oh, look out the window, there's a Michael Rosen!"
     CS "Yeah, let's go outside."
-    
+    jump outside
+
+label outside:
     scene outside
     show cshappy at left
     CS "Nice day!"
@@ -116,9 +125,12 @@ label start:
 
         "Yes.":
             CS "Yeah, it's a good idea to get some stuff."
+            jump walmart
         "No.":
             CS "Screw you, I'm going anyway."
+            jump walmart
 
+label walmart:
     scene walmartoutside
     show cshappy at right
     CS "Oh yes, EmployeeExploitationMart is open!"
@@ -153,7 +165,9 @@ label start:
     scene cscarinside
     CS "Let's get home before that guy doctors my crotch!"
     "CS drives home and manages to avoid reenacting one of his favorite car crash videos."
-    
+    jump homefromwalmart
+
+label homefromwalmart:    
     scene outside
     "CS walks inside and to his room."
     CS "Ahh. It's good to be home!"
@@ -186,12 +200,13 @@ label start:
     show csdefault at left
     CS "Oh. Flashback over."
     show csdefault at right
+    jump needfoundationrepair
+
+label needfoundationrepair:  
     CS "Woah. I was dreaming so long that the foundation fell apart. My house just fell to the side."
     CS "I really need to get some foundation repair."
     CS "Better call HoH SiS!"
     CS "They are really good at giving me the JoJ!"
-    hide csdefault
-    show csphone at left
     CS "{i} Dials 1-800-HOH-SIS{/i}"
     CS "Hello, can you give me the JoJ?"
     Character("HoH SiS Operator") "Is this a prank caller on the line?"
@@ -229,23 +244,19 @@ label start:
     show wesley at left
     wes "Alright, but now what should we do?"
     show richard at right
-    rich "What about we mess with his laptop?"
+    rich "How about we mess with his laptop?"
     hide richard
     show edimg at left
     ed "Ehh..."
-    show wesley at right
-    wes "Wow, he even has a JoJ Ufo from his humiliating HoH SiS series."
-    hide wesley
-    show edimg
     ed "Alright! Let's get sabotagin'"
     "{i}Ed launches the craptop.{/i}"
     ed "Hehe... He won't know what hit him."
-    show wesley
+    show wesley at right
     wes "Quick, Let's get out of here before he comes back"
     hide wesley
 
     scene dooropen
-    show wesley
+    show wesley at right
     wes "Hurry up!"
     
     scene doorclosed
@@ -257,8 +268,266 @@ label start:
     show edimg at left
     ed "Ready?"
     "Ed, Wesley and Richard" "I'm beaming up!"
-    scene csroom
+    scene doorclosed
     show csdefault at left
-    CS "What should I do?"
     CS "Things sure are boooooring around here."
-    CS "Hey, I got an idea!"
+    CS "I should check on the HoH SiS folks. They should be making some progress by now"
+    "{i}CS walks into his room.{/i}"
+    jump hohsisrevenge
+
+label hohsisrevenge:
+    scene csroom
+    CS "What!? They're gone?!"
+    CS "The house is still on the side, and my computer is messed up!!"
+    CS "They set Chocola x Azuki vore art as my desktop background!"
+    CS "That image was meant to stay hidden deep in my hard drive!"
+    CS "What if CSMom saw that?!"
+    CS "I need to go get those guys!"
+    CS "I'm gonna go to HoH SiS HQ and show them who's boss!"
+    scene cscarinside
+    show csdefault at left
+    "..."
+    scene office1
+    show csdefault at left
+    show corndog at right
+    CS "Alright, where are the head JoJites?!"
+    "Worker 1" "I don't know!"
+    CS "BullShisH!"
+    CS "{i}Punches worker.{/i}"
+    hide corndog
+    show grrx at right
+    "Worker 2" "They-- They're on the roof!"
+    CS "Good!"
+    scene elevator
+    show csdefault
+    "..."
+    scene helipad
+    show csdefault at left
+    show richard at right
+    CS "You!"
+    rich "Uh-oh."
+    CS "You'll pay for what you did!"
+    hide richard
+    show wesley at right
+    wes "Do you want a refund?"
+    CS "I'll refund your face to the floor!"
+    menu:
+
+        "What attack would you like to use?"
+
+        "Use Punch":
+
+            jump punch
+
+        "Use Chop":
+
+            jump chop
+
+        "Use Kick":
+            jump kick
+        
+        "Use Special":
+            jump special    
+
+    label punch:
+
+    show CS at left
+    with easeinleft
+
+    show Wesley at right
+    with easeinright
+    CS "Take this!"
+
+    "{i}CS punches Wesley and knocks him out.{/i}"
+
+    hide Wesley
+    with easeoutright
+
+    CS "That'll teach you not to miss with a nerd's computer!"
+
+    show Ed at right
+    with easeinright
+
+    Ed "Hello, 911? My boss just got knocked out by a disgruntled customer and appears to be dying! Send help!"
+
+    CS "Dammit! Ed's calling the police! I gotta go after him!"
+
+    Ed "911! Come quickly! He's chasing after me!"
+
+    "{i}The police arrive and CS runs away.{/i}"
+
+    hide Ed
+    with easeoutright
+
+    show Copguy at right
+    with easeinright
+
+    Copguy "Hey! Get back here!"
+
+    CS "You can't catch me, I'm the speedy Michael Rosen!"
+
+    "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
+
+    hide CS
+    with easeoutleft
+
+    hide Copguy
+    with easeoutright
+
+    hide Helipad
+    with dissolve
+
+    jump jail
+
+    label chop:
+
+    show CS at left
+    with easeinleft
+
+    show Wesley at right
+    with easeinright
+
+    CS "Take this!"
+
+    "{i}CS chops Wesley and a fight ensues.{/i}"
+
+    Wesley "You'll pay for that!"
+
+    CS "Like hell I will!"
+
+    hide CS
+    with easeoutleft
+
+    hide Wesley
+    with easeoutright
+
+    hide Helipad
+    with fade
+
+    show Office
+    with fade
+
+    show Ed at right
+    with easeinright
+
+    Ed "911? Help! My boss just got attacked by a customer and now they're fighting right here in the office!"
+
+    hide Ed
+    with easeoutright
+
+    show CS at left
+    with easeinleft
+
+    CS "Dammit! Ed's calling the police! I need to finish this fast!"
+
+    "{i}The fight continues and the police arrive.{/i}"
+
+    "{i}CS runs away.{/i}"
+
+    show Copguy at right
+    with easeinright
+
+    Copguy "Get back here!"
+
+    CS "You can't catch me, I'm the speedy Michael Rosen!"
+
+    "{i}As CS is not actually the speedy Michael Rosen, he gets caught by the police.{/i}"
+
+    hide CS
+    with easeoutleft
+
+    hide Copguy
+    with easeoutright
+
+    hide Office
+    with dissolve
+
+    jump jail
+
+    label kick:
+    $ renpy.movie_cutscene("kick.ogv")
+    
+    Ed "Hello, 911? My boss just got kicked off of our roof by a disgruntled customer and appears to be dying! Send help!"
+
+    CS "Dammit! Ed's calling the police! I gotta go after him!"
+
+    Ed "911! Come quickly! He's chasing after me!"
+
+    "{i}The police arrive and CS runs away.{/i}"
+
+    hide Ed
+    with easeoutright
+
+    show Copguy at right
+    with easeinright
+
+    Copguy "Hey! Get back here!"
+
+    CS "You can't catch me, I'm the speedy Michael Rosen!"
+
+    "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
+
+    hide CS
+    with easeoutleft
+
+    hide Copguy
+    with easeoutright
+
+    hide Helipad
+    with dissolve
+
+    jump jail
+
+    label special:
+
+    show CS at left
+    with easeinleft
+
+    show Wesley at right
+    with easeinright
+
+    CS "Take this!"
+
+    hide CS
+    with easeoutleft
+
+    hide Wesley
+    with easeoutright
+
+    hide Helipad
+    with fade
+
+    show Office
+    with fade
+
+    "{i}CS uses the magic of YTP to make Wesley shoot his employees.{/i}"
+
+    show CS at left
+    with easeinleft
+   
+    CS "Dammit! The police are here! They must have heard the gun shots!!"
+
+    "{i}The police arrive and CS runs away.{/i}"
+
+    hide Ed
+    with easeoutright
+
+    show Copguy at right
+    with easeinright
+
+    Copguy "Hey! Get back here!"
+
+    CS "You can't catch me, I'm the speedy Michael Rosen!"
+
+    "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
+
+    hide CS
+    with easeoutleft
+
+    hide Copguy
+    with easeoutright
+
+    hide Helipad
+    with dissolve
+
+    jump jail
