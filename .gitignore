@@ -1,10 +1,17 @@
 *.rpyb
 *.rpyc
+
 game/saves/navigation.json
 game/saves/persistent
+
+
 log.txt
 errors.txt
+traceback.txt
+
 *.swn
 *.swo
 
 *.save
+
+*.code-workspace
