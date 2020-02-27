@@ -20,49 +20,49 @@ define BorderGuard = Character("Border Guard")
 
 #Backgrounds.
 #image name = "dir/file.filetype"
-image csroom = "background/Cs_bedroom1.jpg"
-image csroom_window = "background/Cs_bedroom2.jpg"
-image craptop1 = "background/Craptop_error.jpg"
-image craptop2 = "background/Craptop_Desktop.png"
-image craptop3 = "background/Craptop_Updating.jpg"
-image craptop4 = "background/Craptop_Desktop.png"
-image cscaroutside = "background/Car_Driveway.jpg"
-image cscarinside = "background/Car_Inside.jpg"
-image walmartinside = "background/Walmart_Inside.jpg"
-image walmartcheckout = "background/Walmart_checkout.jpg"
-image walmartoutside = "background/Walmart_Outside.png"
+image csroom = "background/CS_bedroom1.jpg"
+image csroom_window = "background/CS_bedroom2.jpg"
+image craptop1 = "background/craptop_error.jpg"
+image craptop2 = "background/craptop_desktop.png"
+image craptop3 = "background/craptop_updating.jpg"
+image craptop4 = "background/craptop_desktop.png"
+image cscaroutside = "background/car_driveway.jpg"
+image cscarinside = "background/car_inside.jpg"
+image walmartinside = "background/walmart_inside.jpg"
+image walmartcheckout = "background/walmart_checkout.jpg"
+image walmartoutside = "background/walmart_Outside.png"
 image walmartshelf = "background/Walmart_shelf.jpg"
-image cardealer = "background/CarDealer.jpg"
-image outside = "background/Cs_house.jpg"
-image doorclosed = "background/Door_closed.jpg"
-image dooropen = "background/Door_open.jpg"
-image factory = "background/Factory.jpg"
+image cardealer = "background/car_dealer.jpg"
+image outside = "background/CS_house.jpg"
+image doorclosed = "background/door_closed.jpg"
+image dooropen = "background/door_open.jpg"
+image factory = "background/factory.jpg"
 image elevator = "background/elevator.jpg"
-image helipad = "background/Heli_pad.jpg"
+image helipad = "background/helipad.jpg"
 image black = "background/black.jpg"
-image office1 = "background/Office_1.jpg"
-image JailCell = "background/jail_cell.jpg"
+image office1 = "background/office1.jpg"
+image jailcell = "background/jail_cell.jpg"
 
 #Movies.
 #image name = "dir/file.filetype"
 
 #Character images.
 #image name = "dir/file.filetype"
-image Arceus = "characters/Arceus3251.png"
+image Arceus = "characters/arceus3251.png"
 image CS = "characters/csocola_neutral.png"
 image cshappy = "characters/csocola_happy.png"
 image nova1 = "characters/nova.png"
-image CarGuy = "characters/Carguy_anime.png"
-image Copguy = "characters/CopGuy.png"
+image CarGuy = "characters/carguy_anime.png"
+image Copguy = "characters/copguy.png"
 image discord = "characters/discord.png"
-image greeter = "characters/walmart CEO.png"
-image youngcs = "characters/Csocola_young(chibi).png"
-image wesley = "characters/wesley-chan.png"
-image Ed = "characters/Ed.png"
-image richard = "characters/Richard.png"
-image corndog = "characters/CornWorker.png"
-image diabeetus = "characters/DiaBeetusWorker.png"
-image grrx = "characters/GrrxWorker.png"
+image greeter = "characters/walmart_CEO.png"
+image youngcs = "characters/csocola_young.png"
+image wesley = "characters/wesley.png"
+image Ed = "characters/ed.png"
+image richard = "characters/richard.png"
+image corndog = "characters/corn_worker.png"
+image diabeetus = "characters/diabeetus_worker.png"
+image grrx = "characters/grrx_worker.png"
 
 label start:
     scene csroom
@@ -530,7 +530,7 @@ label hohsisrevenge:
 
     label jail:
 
-    scene JailCell
+    scene jailcell
     with fade
 
     show CS at left
@@ -714,7 +714,7 @@ label hohsisrevenge:
     hide Windy 
     with easeoutleft
 
-    hide JailCell
+    hide jailcell
     with dissolve
 
     jump bordercrossing
