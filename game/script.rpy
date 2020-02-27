@@ -14,6 +14,9 @@ define ycs = Character("Young CS")
 define ed = Character("Ed")
 define rich = Character("Richard")
 define wes = Character("Wesley")
+define Windy = Character("Windyman")
+define Arceus = Character("Arceus")
+define BorderGuard = Character("Border Guard")
 
 #Backgrounds.
 #image name = "dir/file.filetype"
@@ -523,3 +526,365 @@ label hohsisrevenge:
     jump jail
 
     label jail:
+
+    show JailCell
+    with fade
+
+    show CS at left
+    with easeinleft
+
+    show Copguy at right
+    with easeinright
+
+    Copguy "Alright, welcome to the slammer. How tough are ya?"
+    CS "How tough am I?! How, tough, am, I?! I beat Cuphead!"
+    Copguy "So?"
+    CS "In under 90 minutes!"
+    Copguy "Okay! You're tough enough to get your choice of cellmate, which one do you want?"
+    menu:
+
+         "Who do you want to be your cellmate?"
+         
+         "Arceus":
+            jump arceuscellmate
+
+         "Windy ":
+            jump windycellmate    
+
+    label arceuscellmate:
+    CS "I choose Arceus."
+    Copguy "Alright, but be warned. This person was arrested for cutting a tax collector with his nose."
+
+    hide Copguy
+    with easeoutright
+
+    CS "Alrighty then…."
+    CS "Hello, Arceus."
+
+    show Arceus at center
+    with easeintop
+
+    Arceus "Aye, Boss. .w."
+    CS "So what are you in for?"
+    Arceus "Didn't you hear the cop? \ I'm in for cutting a tax collector with my nose."
+    CS "Well, I can see how. Your nose IS big enough."
+    Arceus "And from my recent playthrough of CSBounciness, I assume you're in for killing workers at HoHSiS"
+    CS "I was 100 percent unsatisfied."
+    Arceus "As was I.. As was I.."
+    "{i}A brief moment of silence..{/i}"
+    Arceus "Welp, I'm bored of this place… Wanna break out? :3"
+    CS "Eh.. Sure, why not, I've played plenty of the Escapists, I should be able to figure it out."
+    CS "We should break out at least one other person though."
+    Arceus "Alright, who do ya wanna break out..?"
+    CS "Let's just break out that guy next to us, I think his name was Windy...."
+    Arceus "Windy? Eh... He's a bit of a stick in the mud, but sure. He may be of use to us."
+    CS "Alright then, let's get going!"
+
+    hide Arceus
+    with easeoutbottom
+
+    hide CS
+    with easeoutleft
+
+    jump breakout
+
+    label windycellmate:
+    CS "I choose Windy."
+    Copguy "Okay." 
+
+    hide Copguy
+    with easeoutright
+
+    CS "Hey Windy ."
+
+    show Windy at center
+    with easeintop
+
+    Windy "Hey.."
+    CS "So what're you in for?"
+    Windy "..."
+    "{i}Windy  begins to stare longingly at CS…{/i}"
+    CS "Well, you don't talk much do you?"
+    Windy "Huh, sorry, I got lost in thought.."
+    CS "About what?"
+    Windy "Breaking out of here.."
+    CS "Wow, Am I that bad of a cellmate that you want to breakout as soon as I get here?"
+    Windy "No, I've been working with the prisoner in the next cell, Arceus, to breakout for 5 years now."
+    CS "Wow, can I come with?"
+    Windy "Only if you can figure out a way to escape, we've had no success, as you can tell given that we're still here."
+    CS "I think I have some ideas, I've played a LOT of the escapists."
+    Windy "Works for me, let's do this!"
+
+    hide CS
+    with easeoutleft
+
+    hide Windy 
+    with easeoutbottom
+
+    jump breakout
+
+
+    label breakout:
+
+    show Arceus at center
+    with easeintop
+
+    Arceus "So, what's the plan? I've been tryna break outta here for 5 Years."
+    CS "Well, for a start. I need to get a feel of the routine here."
+    Arceus "Well, I'll quickly describe that for you, cause I can't stand another minute here." 
+    "{i}Arceus quickly describes the prison routine to CS.{/i}"
+    CS "I think I got all that."
+    Arceus "So, what's our plan, Boss?"
+    CS "I gotta grab a few plastic spoons from the mess hall, Cup of molten chocolate, a guard outfit, and a change of shorts."
+    Arceus "Why a change of shorts?"
+    CS "You kidding me? I'm gonna shit myself 'cuz this is scary as hell."
+    Arceus "Fair enough."
+
+    hide Arceus
+    with easeoutbottom
+
+    "{i}The day ends, the next day progresses, CS and Arceus gather the required essentials for their escape. Along the way, they inform Windy , who more than happily complies with the plan.{/i}" 
+    "{i}The next evening....{/i}"
+    CS "Key, Check."
+
+    show Arceus at right
+    with easeinright
+
+    Arceus "Uniforms, Check."
+
+    show Windy  at left
+    with easeinleft
+
+    Windy  "Spoons, Check."
+    CS "Extra Shorts."
+    CS "Check."
+    CS "Alright men, let's get the heck out of here!"
+
+    hide Arceus
+    with easeoutright
+
+    hide Windy 
+    with easeoutleft
+
+    "{i}The plan goes off without a hitch, the three ditch their Prison Outfits, and put on their guard uniforms.{/i}" 
+    "{i}In the midst of them changing, Windy  notices CS's butt and compliments it.{/i}"
+
+    show Windy  at right
+    with easeinright
+
+    Windy  "CS.. Nice Ass.."
+    CS "Thank you."
+
+    show Arceus at left
+    with easeinleft
+
+    Arceus "Save it for later, love birds." 
+
+    hide Arceus
+    with easeoutleft
+
+    hide Windy 
+    with easeoutright
+
+    "{i}The Three dig their way out of the cell and make a break into the dark of the evening.{/i}"
+    CS "Jeez.. I didn't think that would actually work."
+
+    show Arceus at right
+    with easeinright
+
+    Arceus "You what?" 
+
+    show Windy  at left
+    with easeinleft
+
+    Windy  "Hey, CS.. You looked sexy runnin’ outta that prison.."
+    CS "{i}Blush{/i}  Thank you.."
+    Arceus "Guys, save this for when we're all safe, we need to get a car and get over the border."
+    Windy  "How are we supposed to cross the border with the new wall?"
+    Arceus "Not the Mexican border, the Canadian border, we're in New York, it's way closer and they're too polite to send us back."
+    CS "Works for me, free healthcare."
+    Arceus "Well, you have to live there for a few years before you get access to that, but you should last a few years without getting sick living on that healthy diet of Ritz and EZ cheese."
+
+    hide Arceus
+    with easeoutright
+
+    hide Windy 
+    with easeoutleft
+
+    hide JailCell
+    with dissolve
+
+    jump bordercrossing
+
+    label bordercrossing:
+
+    show Border
+    with fade
+
+    "{i}CS, Windy , and Arceus get to the border crossing.{/i}"
+    "{i}A border guard appears.{/i}"
+
+    show BorderGuard at center
+    with easeintop
+
+    BorderGuard "I'm going to need proof of citizenship, eh."
+
+    show Arceus at right
+    with easeinright
+
+    Arceus "Colour is spelled with a u, eh."
+    BorderGuard "Works for me, eh."
+
+    hide BorderGuard
+    with easeoutbottom
+
+    hide Arceus
+    with easeoutright
+
+    CS "Now that we're over the border and can breathe easy, I wanted to ask you something Windy ."
+
+    show Windy  at center
+    with easeintop
+
+    Windy  "Yeah?"
+    CS "You made a couple passes at me on the trip to here. Was there anything behind that or were you just joking around?"
+    Windy  "Which one would you prefer?"
+    CS "The former, I mean, I've been single for a while, so I'll take what I can get."
+    Windy  "Well, I suppose I have good news for you then…."
+
+    hide Windy 
+    with easeoutbottom
+
+    show Windy  at left
+    with easeinleft
+
+    show Arceus at right
+    with easeinright
+
+    Arceus "Are you lovebirds hungry? I'm gonna stop for food at Tim Horton's."
+
+    hide Arceus
+    with easeoutright
+
+    hide Windy 
+    with easeoutleft
+
+    hide Border
+    with fade
+
+    show OutsideHortons
+    with fade
+
+    "{i}At the Tim Horton's, Windy and CS share a donut. After they finish the donut, Windy steals a kiss.{/i}"
+
+    hide OutsideHortons
+    with dissolve
+
+    show InsideHortons
+    with fade
+
+    CS "Wow, that was great!"
+    "{i}Windy  blushes..{/i}"
+
+    show Windy  at center
+    with easeintop
+
+    Windy  "Thanks…."
+    CS "Oh, I was talking about the donut but the kiss was good too."
+    CS "About 88 percent as good as the donut."
+    Windy  "I'll take it."
+
+    hide Windy 
+    with easeoutbottom
+
+    show Windy  at left
+    with easeinleft
+
+    show Arceus at right
+    with easeinright
+
+    Arceus "Sorry to interrupt you two, but we may have a problem, that donut cost me the last of my money, so we need to find a way to make some cash."
+    "{i}CS looks across the street to see Linus Media Group.{/i}"
+
+    hide Arceus
+    with easeoutright
+
+    hide Windy 
+    with easeoutleft
+
+    CS "I have a lot of video editing experience, maybe I can get a job there."
+    "{i}CS walks into the studio and asks for a job.{/i}"
+
+    show LinusOffice
+    with fade
+
+    show Linus at center
+    with easeintop
+
+    Linus "Sure, you can have a job, just show us proof of citizenship and you're ready to go!"
+    CS "Colour is spelled with a u, eh."
+    Linus "I need actual papers. The last time I hired someone who used that as proof of citizenship, I got fined and had to sell one of my 1000s of GTX Titans."
+    CS "Ummmm..... I'll be right back."
+
+    hide Linus
+    with easeoutbottom
+
+    hide LinusOffice
+    with dissolve
+
+    "{i}CS leaves and talks to Windy .{/i}"
+    show InsideHortons
+
+    show Windy  at center
+    with easeintop
+
+    CS "I need to get proof of citizenship, or at least fake proof of citizenship before I can get a joj here."
+    "{i}Windy  gets an idea and begins to blush.{/i}"
+    Windy  "Trudeau is trying to make Canada more diverse by letting gay married couples get citizenship, we just have to get married and then you can work here."
+    CS "We don't have the money to get married!"
+    Windy  "We can have a cheap wedding at one of your Canadian fan's houses."
+    CS "Well, I know Nova lives around here, so we can have the wedding at his house."
+
+    hide Windy 
+    with easeoutbottom
+
+    hide InsideHortons
+    with dissolve
+
+    jump wedding
+
+    label wedding:
+
+    show WeddingScene
+    with fade
+
+    show CS at left
+    with easeinleft
+
+    show Windy  at right
+    with easeinright
+
+    show FatherDigBick at center
+    with easeintop
+
+    FatherDigBick "Do you, Windyman, take NAME REDACTED to be your lawfully wedded husband?"
+    Windy  "I do."
+    FatherDigBick "And do you, NAME REDACTED, take Windyman to be your lawfully wedded husband?"
+    CS "I do."
+
+    hide CS
+    with easeoutleft
+
+    hide Windy 
+    with easeoutright
+
+    hide FatherDigBick
+    with easeoutbottom
+
+    jump trueend
+
+    hide WeddingScene
+
+    hide Helipad 
+
+    jump trueend
