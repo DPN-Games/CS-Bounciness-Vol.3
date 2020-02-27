@@ -41,13 +41,15 @@ image elevator = "background/elevator.jpg"
 image helipad = "background/Heli_pad.jpg"
 image black = "background/black.jpg"
 image office1 = "background/Office_1.jpg"
+image JailCell = "background/jail_cell.jpg"
 
 #Movies.
 #image name = "dir/file.filetype"
 
 #Character images.
 #image name = "dir/file.filetype"
-image csdefault = "characters/csocola_neutral.png"
+image Arceus = "characters/Arceus3251.png"
+image CS = "characters/csocola_neutral.png"
 image cshappy = "characters/csocola_happy.png"
 image nova1 = "characters/nova.png"
 image CarGuy = "characters/Carguy_anime.png"
@@ -56,7 +58,7 @@ image discord = "characters/discord.png"
 image greeter = "characters/walmart CEO.png"
 image youngcs = "characters/Csocola_young(chibi).png"
 image wesley = "characters/wesley-chan.png"
-image edimg = "characters/Ed.png"
+image Ed = "characters/Ed.png"
 image richard = "characters/Richard.png"
 image corndog = "characters/CornWorker.png"
 image diabeetus = "characters/DiaBeetusWorker.png"
@@ -67,32 +69,32 @@ label start:
     
     #$ renpy.movie_cutscene("introHD.ogv")
     
-    show csdefault at left
+    show CS at left
 
     CS "Welp, time to start up the ol' Craptop."
 
     scene craptop1
-    show csdefault at left
+    show CS at left
     Craptop "Your PC sux. lol."
     
     scene craptop2
-    show csdefault at left
+    show CS at left
     Character("Sticky Note") "Delete the CS Discord."
     CS "Eh, maybe tomorrow"
     
     scene craptop3
-    show csdefault at left
+    show CS at left
     Craptop "Downloading update 200/13."
-    show csdefault at left
+    show CS at left
     Craptop "Update complete"
     scene craptop4    
-    hide csdefault at left
+    hide CS at left
     show cshappy at left
     CS "OoOoOoOoO yes!"
     CS "Time to watch car crash videos for the next couple hours!"
     "Two hours later....."   
     scene csroom
-    show csdefault at left
+    show CS at left
     CS "Okay, what to do now?"
     CS "I could go outside, look at some flowers..."
     
@@ -110,18 +112,18 @@ label outside:
     scene cscaroutside
     show CarGuy at right
     CarGuy "*walks up* Nice car!"
-    show csdefault at left
+    show CS at left
     CS "It's pretty nice, but it's got some scratches."
     show CarGuy at right
     CarGuy "Nooot so nice scratch..."
     CarGuy "You should try Crotch Doctor!"
-    hide csdefault
-    show csdefault at left
+    hide CS
+    show CS at left
     CS "OH GOD AN ADVERTISER!"
     CS "QUICK START THE CAR! START THE CAR!"
 
     scene cscarinside
-    show csdefault at left
+    show CS at left
     CS "Whew, that was close."
     CS "Should I go get groceries?"
 
@@ -191,7 +193,7 @@ label homefromwalmart:
     CS "Man, it was so easy back then. All you needed was Windows Movie Maker and some effects. If only it was that easy now......."
 
     CS "Oh look, a flashback. What a coincidence..."
-    hide csdefault
+    hide CS
     "hey flashback time"
     
     scene csroom with irisin
@@ -202,9 +204,9 @@ label homefromwalmart:
     hide youngcs
 
     scene csroom with irisout
-    show csdefault at left
+    show CS at left
     CS "Oh. Flashback over."
-    show csdefault at right
+    show CS at right
     jump needfoundationrepair
 
 label needfoundationrepair:  
@@ -225,17 +227,17 @@ label needfoundationrepair:
     CS "Lemme go get the door"
     
     scene dooropen
-    show csdefault at left
+    show CS at left
     CS "Hello! I am CS188, and I-"
-    show edimg at right
+    show Ed at right
     Ed "Alright, that will be 200 cstars."
     CS "Okay, I guess they already told you what I need done... Lemme get my wallet."
     CS "Here you go. I'll get out of you guys' hair while you work."
     "{i}CS leaves.{/i}"
-    hide csdefault
-    show edimg
+    hide CS
+    show Ed
     Ed "Come on in guys. CS left."
-    show edimg at right
+    show Ed at right
     Ed "So now that we're here, what should we do to him?"
     "Ed, Wesley and Richard" "Hmmm..."
     Ed "Let's go check his room. We might get some ideas"
@@ -244,14 +246,14 @@ label needfoundationrepair:
     scene csroom
     show wesley at right
     Wesley "Wow, I didn't know CS plays nekopara!"
-    show edimg at left
+    show Ed at left
     Ed "CS surrrre loves those cute catgirls~ <3"
     show wesley at left
     Wesley "Alright, but now what should we do?"
     show richard at right
     rich "How about we mess with his laptop?"
     hide richard
-    show edimg at left
+    show Ed at left
     Ed "Ehh..."
     Ed "Alright! Let's get sabotagin'"
     "{i}Ed launches the craptop.{/i}"
@@ -270,11 +272,11 @@ label needfoundationrepair:
     scene outside
     show richard at right
     rich "Lemme call our JoJ UFO."
-    show edimg at left
+    show Ed at left
     Ed "Ready?"
     "Ed, Wesley and Richard" "I'm beaming up!"
     scene doorclosed
-    show csdefault at left
+    show CS at left
     CS "Things sure are boooooring around here."
     CS "I should check on the HoH SiS folks. They should be making some progress by now"
     "{i}CS walks into his room.{/i}"
@@ -290,10 +292,10 @@ label hohsisrevenge:
     CS "I need to go get those guys!"
     CS "I'm gonna go to HoH SiS HQ and show them who's boss!"
     scene cscarinside
-    show csdefault at left
+    show CS at left
     "..."
     scene office1
-    show csdefault at left
+    show CS at left
     show corndog at right
     CS "Alright, where are the head JoJites?!"
     "Worker 1" "I don't know!"
@@ -304,10 +306,10 @@ label hohsisrevenge:
     "Worker 2" "They-- They're on the roof!"
     CS "Good!"
     scene elevator
-    show csdefault
+    show CS
     "..."
     scene helipad
-    show csdefault at left
+    show CS at left
     show richard at right
     CS "You!"
     rich "Uh-oh."
@@ -345,7 +347,7 @@ label hohsisrevenge:
 
     CS "That'll teach you not to miss with a nerd's computer!"
 
-    show edimg at right
+    show Ed at right
     with easeinright
 
     Ed "Hello, 911? My boss just got knocked out by a disgruntled customer and appears to be dying! Send help!"
@@ -356,7 +358,7 @@ label hohsisrevenge:
 
     "{i}The police arrive and CS runs away.{/i}"
 
-    hide edimg
+    hide Ed
     with easeoutright
 
     show Copguy at right
@@ -368,7 +370,7 @@ label hohsisrevenge:
 
     "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
 
-    hide csdefault
+    hide CS
     with easeoutleft
 
     hide Copguy
@@ -389,7 +391,7 @@ label hohsisrevenge:
 
     CS "Like hell I will!"
 
-    hide csdefault
+    hide CS
     with easeoutleft
 
     hide wesley
@@ -409,7 +411,7 @@ label hohsisrevenge:
     hide Ed
     with easeoutright
 
-    show csdefault at left
+    show CS at left
     with easeinleft
 
     CS "Dammit! Ed's calling the police! I need to finish this fast!"
@@ -427,7 +429,7 @@ label hohsisrevenge:
 
     "{i}As CS is not actually the speedy Michael Rosen, he gets caught by the police.{/i}"
 
-    hide csdefault
+    hide CS
     with easeoutleft
 
     hide Copguy
@@ -467,7 +469,7 @@ label hohsisrevenge:
 
     "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
 
-    hide csdefault
+    hide CS
     with easeoutleft
 
     hide Copguy
@@ -482,7 +484,7 @@ label hohsisrevenge:
 
     CS "Take this!"
 
-    hide csdefault
+    hide CS
     with easeoutleft
 
     hide wesley
@@ -496,7 +498,7 @@ label hohsisrevenge:
 
     "{i}CS uses the magic of YTP to make Wesley shoot his employees.{/i}"
 
-    show csdefault at left
+    show CS at left
     with easeinleft
    
     CS "Dammit! The police are here! They must have heard the gun shots!!"
@@ -515,7 +517,7 @@ label hohsisrevenge:
 
     "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
 
-    hide csdefault
+    hide CS
     with easeoutleft
 
     hide Copguy
@@ -528,7 +530,7 @@ label hohsisrevenge:
 
     label jail:
 
-    show JailCell
+    scene JailCell
     with fade
 
     show CS at left
