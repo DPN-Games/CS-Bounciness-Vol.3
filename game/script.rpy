@@ -1,8 +1,8 @@
-﻿#Variable declaration.
+﻿# Variable declaration.
 
-#Characters.
-#define varname = Character("name")
-#Character names should be PascalCase.
+#C haracters.
+# define varname = Character("name")
+# Character names should be PascalCase.
 define CS = Character("CS188")
 define Craptop = Character("Craptop")
 define CopGuy = Character("Cop Guy")
@@ -19,9 +19,9 @@ define Windy = Character("Windyman")
 define Arceus = Character("Arceus")
 define BorderGuard = Character("Border Guard")
 
-#Backgrounds.
-#image name = "dir/file.filetype"
-#Image variables should be all lowercase.
+# Backgrounds.
+# image name = "dir/file.filetype"
+#I mage variables should be all lowercase.
 image csroom = "background/CS_bedroom1.jpg"
 image csroom_window = "background/CS_bedroom2.jpg"
 image craptop1 = "background/craptop_error.jpg"
@@ -45,12 +45,12 @@ image black = "background/black.jpg"
 image office1 = "background/office1.jpg"
 image jailcell = "background/jail_cell.jpg"
 
-#Movies.
-#image name = "dir/file.filetype"
+# Movies.
+# image name = "dir/file.filetype"
 
-#Character images.
-#image name = "dir/file.filetype"
-#Image variables should be all lowercase.
+# Character images.
+# Image name = "dir/file.filetype"
+# Image variables should be all lowercase.
 image arceus = "characters/arceus3251.png"
 image cs = "characters/csocola_neutral.png"
 image cshappy = "characters/csocola_happy.png"
@@ -213,7 +213,7 @@ label homefromwalmart:
     jump needfoundationrepair
 
 label needfoundationrepair:
-    # Put like, a crash sound and a particle effect here.  
+    # TODO: Put like, a crash sound and a particle effect here.  
     CS "Woah. I was dreaming so long that the foundation fell apart. My house just fell to the side."
     CS "I really need to get some foundation repair."
     CS "Better call HoH SiS!"
@@ -222,7 +222,7 @@ label needfoundationrepair:
     CS "Hello, can you give me the JoJ?"
     Character("HoH SiS Operator") "Is this a prank caller on the line?"
     CS "No! My house really needs foundation repair! I need your help ASAP!"
-    "HoH SiS operator" "Alright, that will be 200 CStars. You can pay us afterwards."  # Replace this with Embers?
+    "HoH SiS operator" "Alright, that will be 200 CStars. You can pay us afterwards."  #TODO: Replace this with Embers?
     "HoH SiS operator" "{i}hangs up{/i}"
     CS "Well, that is one thing taken care of."
     CS "I guess I'll work on my new YTP while I wait."
@@ -322,6 +322,10 @@ label hohsisrevenge:
     show wesley at right
     Wesley "Do you want a refund?"
     CS "I'll refund your face to the floor!"
+
+    # TODO: This tree is weird. There's repeated lines at the end of each bit, which
+    # should probably just be its own section, right?
+
     menu:
 
         "What attack would you like to use?"
@@ -461,7 +465,7 @@ label hohsisrevenge:
 
     "{i}The police arrive and CS runs away.{/i}"
 
-    hide Ed
+    hide ed
     with easeoutright
 
     show copguy at right
@@ -873,6 +877,8 @@ label hohsisrevenge:
 
     show fatherdigbick at center
     with easeintop
+
+    # TODO: Glitch text formatting on the NAME REDACTEDs.
 
     FatherDigBick "Do you, Windyman, take NAME REDACTED to be your lawfully wedded husband?"
     Windy  "I do."
