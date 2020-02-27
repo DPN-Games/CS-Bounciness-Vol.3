@@ -346,197 +346,197 @@ label hohsisrevenge:
 
     label punch:
 
-    CS "Take this!"
+        CS "Take this!"
 
-    "{i}CS punches Wesley and knocks him out.{/i}"
+        "{i}CS punches Wesley and knocks him out.{/i}"
 
-    hide wesley
-    with easeoutright
+        hide wesley
+        with easeoutright
 
-    CS "That'll teach you not to mess with a nerd's computer!"
+        CS "That'll teach you not to mess with a nerd's computer!"
 
-    show ed at right
-    with easeinright
+        show ed at right
+        with easeinright
 
-    Ed "Hello, 911? My boss just got knocked out by a disgruntled customer and appears to be dying! Send help!"
+        Ed "Hello, 911? My boss just got knocked out by a disgruntled customer and appears to be dying! Send help!"
 
-    CS "Dammit! Ed's calling the police! I gotta go after him!"
+        CS "Dammit! Ed's calling the police! I gotta go after him!"
 
-    Ed "911! Come quickly! He's chasing after me!"
+        Ed "911! Come quickly! He's chasing after me!"
 
-    "{i}The police arrive and CS runs away.{/i}"
+        "{i}The police arrive and CS runs away.{/i}"
 
-    hide ed
-    with easeoutright
+        hide ed
+        with easeoutright
 
-    show copguy at right
-    with easeinright
+        show copguy at right
+        with easeinright
 
-    CopGuy "Hey! Get back here!"
+        CopGuy "Hey! Get back here!"
 
-    CS "You can't catch me, I'm the speedy Michael Rosen!"
+        CS "You can't catch me, I'm the speedy Michael Rosen!"
 
-    "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
+        "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
 
-    hide cs
-    with easeoutleft
+        hide cs
+        with easeoutleft
 
-    hide copguy
-    with easeoutright
+        hide copguy
+        with easeoutright
 
-    hide helipad
-    with dissolve
+        hide helipad
+        with dissolve
 
-    jump jail
+        jump jail
 
     label chop:
 
-    CS "Take this!"
+        CS "Take this!"
 
-    "{i}CS chops Wesley and a fight ensues.{/i}"
+        "{i}CS chops Wesley and a fight ensues.{/i}"
 
-    Wesley "You'll pay for that!"
+        Wesley "You'll pay for that!"
 
-    CS "Like hell I will!"
+        CS "Like hell I will!"
 
-    hide cs
-    with easeoutleft
+        hide cs
+        with easeoutleft
 
-    hide wesley
-    with easeoutright
+        hide wesley
+        with easeoutright
 
-    hide helipad
-    with fade
+        hide helipad
+        with fade
 
-    scene office1
-    with fade
+        scene office1
+        with fade
 
-    show ed at right
-    with easeinright
+        show ed at right
+        with easeinright
 
-    Ed "911? Help! My boss just got attacked by a customer and now they're fighting right here in the office!"
+        Ed "911? Help! My boss just got attacked by a customer and now they're fighting right here in the office!"
 
-    hide ed
-    with easeoutright
+        hide ed
+        with easeoutright
 
-    show cs at left
-    with easeinleft
+        show cs at left
+        with easeinleft
 
-    CS "Dammit! Ed's calling the police! I need to finish this fast!"
+        CS "Dammit! Ed's calling the police! I need to finish this fast!"
 
-    "{i}The fight continues and the police arrive.{/i}"
+        "{i}The fight continues and the police arrive.{/i}"
 
-    "{i}CS runs away.{/i}"
+        "{i}CS runs away.{/i}"
 
-    show copguy at right
-    with easeinright
+        show copguy at right
+        with easeinright
 
-    CopGuy "Get back here!"
+        CopGuy "Get back here!"
 
-    CS "You can't catch me, I'm the speedy Michael Rosen!"
+        CS "You can't catch me, I'm the speedy Michael Rosen!"
 
-    "{i}As CS is not actually the speedy Michael Rosen, he gets caught by the police.{/i}"
+        "{i}As CS is not actually the speedy Michael Rosen, he gets caught by the police.{/i}"
 
-    hide cs
-    with easeoutleft
+        hide cs
+        with easeoutleft
 
-    hide copguy
-    with easeoutright
+        hide copguy
+        with easeoutright
 
-    hide office1
-    with dissolve
+        hide office1
+        with dissolve
 
-    jump jail
+        jump jail
 
     label kick:
-    $ renpy.movie_cutscene("kick.ogv")
+        $ renpy.movie_cutscene("kick.ogv")
 
-    hide wesley
-    with easeoutright
+        hide wesley
+        with easeoutright
 
-    show ed at right
-    with easeinright
-    
-    Ed "Hello, 911? My boss just got kicked off of our roof by a disgruntled customer and appears to be dying! Send help!"
+        show ed at right
+        with easeinright
+        
+        Ed "Hello, 911? My boss just got kicked off of our roof by a disgruntled customer and appears to be dying! Send help!"
 
-    CS "Dammit! Ed's calling the police! I gotta go after him!"
+        CS "Dammit! Ed's calling the police! I gotta go after him!"
 
-    Ed "911! Come quickly! He's chasing after me!"
+        Ed "911! Come quickly! He's chasing after me!"
 
-    "{i}The police arrive and CS runs away.{/i}"
+        "{i}The police arrive and CS runs away.{/i}"
 
-    hide ed
-    with easeoutright
+        hide ed
+        with easeoutright
 
-    show copguy at right
-    with easeinright
+        show copguy at right
+        with easeinright
 
-    CopGuy "Hey! Get back here!"
+        CopGuy "Hey! Get back here!"
 
-    CS "You can't catch me, I'm the speedy Michael Rosen!"
+        CS "You can't catch me, I'm the speedy Michael Rosen!"
 
-    "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
+        "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
 
-    hide cs
-    with easeoutleft
+        hide cs
+        with easeoutleft
 
-    hide copguy
-    with easeoutright
+        hide copguy
+        with easeoutright
 
-    hide Helipad
-    with dissolve
+        hide Helipad
+        with dissolve
 
-    jump jail
+        jump jail
 
     label special:
 
-    CS "Take this!"
+        CS "Take this!"
 
-    hide cs
-    with easeoutleft
+        hide cs
+        with easeoutleft
 
-    hide wesley
-    with easeoutright
+        hide wesley
+        with easeoutright
 
-    hide Helipad
-    with fade
+        hide Helipad
+        with fade
 
-    scene office1
-    with fade
+        scene office1
+        with fade
 
-    "{i}CS uses the magic of YTP to make Wesley shoot his employees.{/i}"
+        "{i}CS uses the magic of YTP to make Wesley shoot his employees.{/i}"
 
-    show cs at left
-    with easeinleft
-   
-    CS "Dammit! The police are here! They must have heard the gun shots!"
+        show cs at left
+        with easeinleft
+    
+        CS "Dammit! The police are here! They must have heard the gun shots!"
 
-    "{i}The police arrive and CS runs away.{/i}"
+        "{i}The police arrive and CS runs away.{/i}"
 
-    hide ed
-    with easeoutright
+        hide ed
+        with easeoutright
 
-    show copguy at right
-    with easeinright
+        show copguy at right
+        with easeinright
 
-    CopGuy "Hey! Get back here!"
+        CopGuy "Hey! Get back here!"
 
-    CS "You can't catch me, I'm the speedy Michael Rosen!"
+        CS "You can't catch me, I'm the speedy Michael Rosen!"
 
-    "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
+        "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
 
-    hide cs
-    with easeoutleft
+        hide cs
+        with easeoutleft
 
-    hide copguy
-    with easeoutright
+        hide copguy
+        with easeoutright
 
-    hide office1
-    with dissolve
+        hide office1
+        with dissolve
 
-    jump jail
+        jump jail
 
-    label jail:
+label jail:
 
     scene jailcell
     with fade
@@ -562,7 +562,7 @@ label hohsisrevenge:
          "Windy":
             jump windycellmate    
 
-    label arceuscellmate:
+label arceuscellmate:
     CS "I choose Arceus."
     Copguy "Alright, but be warned. This person was arrested for cutting a tax collector with his nose."
 
@@ -599,7 +599,7 @@ label hohsisrevenge:
 
     jump breakout
 
-    label windycellmate:
+label windycellmate:
     CS "I choose Windy."
     CopGuy "Okay." 
 
@@ -635,7 +635,7 @@ label hohsisrevenge:
     jump breakout
 
 
-    label breakout:
+label breakout:
 
     show Arceus at center
     with easeintop
@@ -727,7 +727,7 @@ label hohsisrevenge:
 
     jump bordercrossing
 
-    label bordercrossing:
+label bordercrossing:
 
     show border
     with fade
@@ -864,7 +864,7 @@ label hohsisrevenge:
 
     jump wedding
 
-    label wedding:
+label wedding:
 
     show weddingscene
     with fade
