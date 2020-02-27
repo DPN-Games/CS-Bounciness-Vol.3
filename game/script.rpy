@@ -11,9 +11,9 @@ define CarGuy = Character("Car Guy")
 define greeter = Character("Walmart Greeter")
 define cashier = Character("Cashier")
 define ycs = Character("Young CS")
-define ed = Character("Ed")
+define Ed = Character("Ed")
 define rich = Character("Richard")
-define wes = Character("Wesley")
+define Wesley = Character("Wesley")
 define Windy = Character("Windyman")
 define Arceus = Character("Arceus")
 define BorderGuard = Character("Border Guard")
@@ -50,7 +50,8 @@ image office1 = "background/Office_1.jpg"
 image csdefault = "characters/csocola_neutral.png"
 image cshappy = "characters/csocola_happy.png"
 image nova1 = "characters/nova.png"
-image carguy = "characters/Carguy_anime.png"
+image CarGuy = "characters/Carguy_anime.png"
+image Copguy = "characters/CopGuy.png"
 image discord = "characters/discord.png"
 image greeter = "characters/walmart CEO.png"
 image youngcs = "characters/Csocola_young(chibi).png"
@@ -107,11 +108,11 @@ label outside:
     CS "Well, I guess it's car time."
     
     scene cscaroutside
-    show carguy at right
+    show CarGuy at right
     CarGuy "*walks up* Nice car!"
     show csdefault at left
     CS "It's pretty nice, but it's got some scratches."
-    show carguy at right
+    show CarGuy at right
     CarGuy "Nooot so nice scratch..."
     CarGuy "You should try Crotch Doctor!"
     hide csdefault
@@ -227,41 +228,41 @@ label needfoundationrepair:
     show csdefault at left
     CS "Hello! I am CS188, and I-"
     show edimg at right
-    ed "Alright, that will be 200 cstars."
+    Ed "Alright, that will be 200 cstars."
     CS "Okay, I guess they already told you what I need done... Lemme get my wallet."
     CS "Here you go. I'll get out of you guys' hair while you work."
     "{i}CS leaves.{/i}"
     hide csdefault
     show edimg
-    ed "Come on in guys. CS left."
+    Ed "Come on in guys. CS left."
     show edimg at right
-    ed "So now that we're here, what should we do to him?"
+    Ed "So now that we're here, what should we do to him?"
     "Ed, Wesley and Richard" "Hmmm..."
-    ed "Let's go check his room. We might get some ideas"
+    Ed "Let's go check his room. We might get some ideas"
     "{i} The three HoH SiS workers go upstairs. {/i}"
     
     scene csroom
     show wesley at right
-    wes "Wow, I didn't know CS plays nekopara!"
+    Wesley "Wow, I didn't know CS plays nekopara!"
     show edimg at left
-    ed "CS surrrre loves those cute catgirls~ <3"
+    Ed "CS surrrre loves those cute catgirls~ <3"
     show wesley at left
-    wes "Alright, but now what should we do?"
+    Wesley "Alright, but now what should we do?"
     show richard at right
     rich "How about we mess with his laptop?"
     hide richard
     show edimg at left
-    ed "Ehh..."
-    ed "Alright! Let's get sabotagin'"
+    Ed "Ehh..."
+    Ed "Alright! Let's get sabotagin'"
     "{i}Ed launches the craptop.{/i}"
-    ed "Hehe... He won't know what hit him."
+    Ed "Hehe... He won't know what hit him."
     show wesley at right
-    wes "Quick, Let's get out of here before he comes back"
+    Wesley "Quick, Let's get out of here before he comes back"
     hide wesley
 
     scene dooropen
     show wesley at right
-    wes "Hurry up!"
+    Wesley "Hurry up!"
     
     scene doorclosed
     "..."
@@ -270,7 +271,7 @@ label needfoundationrepair:
     show richard at right
     rich "Lemme call our JoJ UFO."
     show edimg at left
-    ed "Ready?"
+    Ed "Ready?"
     "Ed, Wesley and Richard" "I'm beaming up!"
     scene doorclosed
     show csdefault at left
@@ -313,7 +314,7 @@ label hohsisrevenge:
     CS "You'll pay for what you did!"
     hide richard
     show wesley at right
-    wes "Do you want a refund?"
+    Wesley "Do you want a refund?"
     CS "I'll refund your face to the floor!"
     menu:
 
@@ -347,11 +348,11 @@ label hohsisrevenge:
     show edimg at right
     with easeinright
 
-    ed "Hello, 911? My boss just got knocked out by a disgruntled customer and appears to be dying! Send help!"
+    Ed "Hello, 911? My boss just got knocked out by a disgruntled customer and appears to be dying! Send help!"
 
     CS "Dammit! Ed's calling the police! I gotta go after him!"
 
-    ed "911! Come quickly! He's chasing after me!"
+    Ed "911! Come quickly! He's chasing after me!"
 
     "{i}The police arrive and CS runs away.{/i}"
 
@@ -384,7 +385,7 @@ label hohsisrevenge:
 
     "{i}CS chops Wesley and a fight ensues.{/i}"
 
-    wes "You'll pay for that!"
+    Wesley "You'll pay for that!"
 
     CS "Like hell I will!"
 
@@ -400,12 +401,12 @@ label hohsisrevenge:
     scene office1
     with fade
 
-    show ed at right
+    show Ed at right
     with easeinright
 
-    ed "911? Help! My boss just got attacked by a customer and now they're fighting right here in the office!"
+    Ed "911? Help! My boss just got attacked by a customer and now they're fighting right here in the office!"
 
-    hide ed
+    hide Ed
     with easeoutright
 
     show csdefault at left
@@ -443,18 +444,18 @@ label hohsisrevenge:
     hide wesley
     with easeoutright
 
-    show ed at right
+    show Ed at right
     with easeinright
     
-    ed "Hello, 911? My boss just got kicked off of our roof by a disgruntled customer and appears to be dying! Send help!"
+    Ed "Hello, 911? My boss just got kicked off of our roof by a disgruntled customer and appears to be dying! Send help!"
 
     CS "Dammit! Ed's calling the police! I gotta go after him!"
 
-    ed "911! Come quickly! He's chasing after me!"
+    Ed "911! Come quickly! He's chasing after me!"
 
     "{i}The police arrive and CS runs away.{/i}"
 
-    hide ed
+    hide Ed
     with easeoutright
 
     show Copguy at right
@@ -502,7 +503,7 @@ label hohsisrevenge:
 
     "{i}The police arrive and CS runs away.{/i}"
 
-    hide ed
+    hide Ed
     with easeoutright
 
     show Copguy at right
