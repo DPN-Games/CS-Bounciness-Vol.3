@@ -83,13 +83,13 @@ label start:
     scene craptop2
     show cs at left
     Character("Sticky Note") "Delete the CS Discord."
-    CS "Eh, maybe tomorrow"
+    CS "Eh, maybe tomorrow."
     
     scene craptop3
     show cs at left
     Craptop "Downloading update 200/13."
     show cs at left
-    Craptop "Update complete"
+    Craptop "Update complete."
     scene craptop4    
     hide cs at left
     show cshappy at left
@@ -160,7 +160,7 @@ label walmart:
     "CS walks to checkout."
     scene walmartcheckout
     CS "Here's my stuff."
-    cashier "That'll be $11.88"
+    cashier "That'll be $11.88."
     CS "Here you go."
     cashier "Have a good day."
     CS "You too. Bye!"
@@ -185,15 +185,15 @@ label homefromwalmart:
 
     scene csroom
     CS "You know, I haven't put out a YTP in a while. I should work on one of my in-progress ones."
-    "CS walks to his craptop and opens up premiere"
+    "CS walks to his craptop and opens up Premiere."
     
     scene craptop4
     CS "Ooh, here's the one from my last editing stream. People would be excited to finally see this as a finished product."
     "CS watches the in-progress video."
-    CS "This is pretty good, but I'm feeling uninspired. I don't know where to go from here...."
+    CS "This is pretty good, but I'm feeling uninspired. I don't know where to go from here..."
     CS "I know! I should watch some other YTPs for inspiration."
     "CS opens up youtube and begins watching YTPs. After a while, CS runs into some old YTPs."
-    CS "Man, it was so easy back then. All you needed was Windows Movie Maker and some effects. If only it was that easy now......."
+    CS "Man, it was so easy back then. All you needed was Windows Movie Maker and some effects. If only it was that easy now......"
 
     CS "Oh look, a flashback. What a coincidence..."
     hide cs
@@ -222,48 +222,48 @@ label needfoundationrepair:
     CS "Hello, can you give me the JoJ?"
     Character("HoH SiS Operator") "Is this a prank caller on the line?"
     CS "No! My house really needs foundation repair! I need your help ASAP!"
-    "HoH SiS operator" "Alright, that will be 200 CStars. You can pay us afterwards."
+    "HoH SiS operator" "Alright, that will be 200 CStars. You can pay us afterwards."  # Replace this with Embers?
     "HoH SiS operator" "{i}hangs up{/i}"
     CS "Well, that is one thing taken care of."
     CS "I guess I'll work on my new YTP while I wait."
-    "{i}Time passes and the doorbell rings{/i}"
+    "{i}Time passes, and the doorbell rings.{/i}"
     CS "Oh! They're here!"
-    CS "Lemme go get the door"
+    CS "Lemme go get the door."
     
     scene dooropen
     show cs at left
     CS "Hello! I am CS188, and I-"
     show ed at right
-    Ed "Alright, that will be 200 cstars."
-    CS "Okay, I guess they already told you what I need done... Lemme get my wallet."
+    Ed "Alright, that will be 200 CStars."
+    CS "Okay, I guess they already told you what I need done... lemme get my wallet."
     CS "Here you go. I'll get out of you guys' hair while you work."
     "{i}CS leaves.{/i}"
     hide cs
     show ed
-    Ed "Come on in guys. CS left."
+    Ed "Come on in, guys. CS left."
     show ed at right
     Ed "So now that we're here, what should we do to him?"
     "Ed, Wesley and Richard" "Hmmm..."
-    Ed "Let's go check his room. We might get some ideas"
+    Ed "Let's go check his room. We might get some ideas."
     "{i} The three HoH SiS workers go upstairs. {/i}"
     
     scene csroom
     show wesley at right
-    Wesley "Wow, I didn't know CS plays nekopara!"
-    show Ed at left
+    Wesley "Wow, I didn't know CS plays Nekopara!"
+    show ed at left
     Ed "CS surrrre loves those cute catgirls~ <3"
     show wesley at left
     Wesley "Alright, but now what should we do?"
     show richard at right
     rich "How about we mess with his laptop?"
     hide richard
-    show Ed at left
+    show ed at left
     Ed "Ehh..."
-    Ed "Alright! Let's get sabotagin'"
+    Ed "Alright! Let's get sabotagin'!"
     "{i}Ed launches the craptop.{/i}"
     Ed "Hehe... He won't know what hit him."
     show wesley at right
-    Wesley "Quick, Let's get out of here before he comes back"
+    Wesley "Quick, Let's get out of here before he comes back!"
     hide wesley
 
     scene dooropen
@@ -282,7 +282,7 @@ label needfoundationrepair:
     scene doorclosed
     show cs at left
     CS "Things sure are boooooring around here."
-    CS "I should check on the HoH SiS folks. They should be making some progress by now"
+    CS "I should check on the HoH SiS folks. They should be making some progress by now."
     "{i}CS walks into his room.{/i}"
     jump hohsisrevenge
 
@@ -349,7 +349,7 @@ label hohsisrevenge:
     hide wesley
     with easeoutright
 
-    CS "That'll teach you not to miss with a nerd's computer!"
+    CS "That'll teach you not to mess with a nerd's computer!"
 
     show ed at right
     with easeinright
@@ -362,7 +362,7 @@ label hohsisrevenge:
 
     "{i}The police arrive and CS runs away.{/i}"
 
-    hide Ed
+    hide ed
     with easeoutright
 
     show copguy at right
@@ -505,7 +505,7 @@ label hohsisrevenge:
     show cs at left
     with easeinleft
    
-    CS "Dammit! The police are here! They must have heard the gun shots!!"
+    CS "Dammit! The police are here! They must have heard the gun shots!"
 
     "{i}The police arrive and CS runs away.{/i}"
 
@@ -555,7 +555,7 @@ label hohsisrevenge:
          "Arceus":
             jump arceuscellmate
 
-         "Windy ":
+         "Windy":
             jump windycellmate    
 
     label arceuscellmate:
@@ -575,16 +575,16 @@ label hohsisrevenge:
     CS "So what are you in for?"
     Arceus "Didn't you hear the cop? \ I'm in for cutting a tax collector with my nose."
     CS "Well, I can see how. Your nose IS big enough."
-    Arceus "And from my recent playthrough of CSBounciness, I assume you're in for killing workers at HoHSiS"
+    Arceus "And from my recent playthrough of CSBounciness, I assume you're in for killing workers at HoHSiS."
     CS "I was 100 percent unsatisfied."
-    Arceus "As was I.. As was I.."
-    "{i}A brief moment of silence..{/i}"
+    Arceus "As was I. As was I..."
+    "{i}A brief moment of silence...{/i}"
     Arceus "Welp, I'm bored of this place… Wanna break out? :3"
     CS "Eh.. Sure, why not, I've played plenty of the Escapists, I should be able to figure it out."
     CS "We should break out at least one other person though."
-    Arceus "Alright, who do ya wanna break out..?"
-    CS "Let's just break out that guy next to us, I think his name was Windy...."
-    Arceus "Windy? Eh... He's a bit of a stick in the mud, but sure. He may be of use to us."
+    Arceus "Alright, who do ya wanna break out...?"
+    CS "Let's just break out that guy next to us, I think his name was Windy..."
+    Arceus "Windy? Eh... He's a bit of a stick in the mud, but sure. He may be of use to us."  # TODO: Change this line.
     CS "Alright then, let's get going!"
 
     hide arceus
@@ -602,19 +602,19 @@ label hohsisrevenge:
     hide copguy
     with easeoutright
 
-    CS "Hey Windy ."
+    CS "Hey Windy."
 
     show windy at center
     with easeintop
 
-    Windy "Hey.."
+    Windy "Hey..."
     CS "So what're you in for?"
     Windy "..."
     "{i}Windy  begins to stare longingly at CS…{/i}"
     CS "Well, you don't talk much do you?"
-    Windy "Huh, sorry, I got lost in thought.."
+    Windy "Huh, sorry, I got lost in thought..."
     CS "About what?"
-    Windy "Breaking out of here.."
+    Windy "Breaking out of here..."
     CS "Wow, Am I that bad of a cellmate that you want to breakout as soon as I get here?"
     Windy "No, I've been working with the prisoner in the next cell, Arceus, to breakout for 5 years now."
     CS "Wow, can I come with?"
@@ -636,7 +636,7 @@ label hohsisrevenge:
     show Arceus at center
     with easeintop
 
-    Arceus "So, what's the plan? I've been tryna break outta here for 5 Years."
+    Arceus "So, what's the plan? I've been tryna break outta here for 5 years."
     CS "Well, for a start. I need to get a feel of the routine here."
     Arceus "Well, I'll quickly describe that for you, cause I can't stand another minute here." 
     "{i}Arceus quickly describes the prison routine to CS.{/i}"
@@ -650,9 +650,9 @@ label hohsisrevenge:
     hide arceus
     with easeoutbottom
 
-    "{i}The day ends, the next day progresses, CS and Arceus gather the required essentials for their escape. Along the way, they inform Windy , who more than happily complies with the plan.{/i}" 
-    "{i}The next evening....{/i}"
-    CS "Key, Check."
+    "{i}The day ends, the next day progresses, CS and Arceus gather the required essentials for their escape. Along the way, they inform Windy, who more than happily complies with the plan.{/i}" 
+    "{i}The next evening...{/i}"
+    CS "Key, check."
 
     show arceus at right
     with easeinright
@@ -662,8 +662,8 @@ label hohsisrevenge:
     show windy  at left
     with easeinleft
 
-    Windy "Spoons, Check."
-    CS "Extra Shorts."
+    Windy "Spoons, check."
+    CS "Extra shorts."
     CS "Check."
     CS "Alright men, let's get the heck out of here!"
 
@@ -673,13 +673,13 @@ label hohsisrevenge:
     hide windy
     with easeoutleft
 
-    "{i}The plan goes off without a hitch, the three ditch their Prison Outfits, and put on their guard uniforms.{/i}" 
+    "{i}The plan goes off without a hitch, the three ditch their prison outfits, and put on their guard uniforms.{/i}" 
     "{i}In the midst of them changing, Windy  notices CS's butt and compliments it.{/i}"
 
     show windy at right
     with easeinright
 
-    Windy "CS.. Nice Ass.."
+    Windy "CS... Nice Ass..."
     CS "Thank you."
 
     show arceus at left
@@ -694,7 +694,7 @@ label hohsisrevenge:
     with easeoutright
 
     "{i}The Three dig their way out of the cell and make a break into the dark of the evening.{/i}"
-    CS "Jeez.. I didn't think that would actually work."
+    CS "Jeez... I didn't think that would actually work."
 
     show arceus at right
     with easeinright
@@ -704,7 +704,7 @@ label hohsisrevenge:
     show windy at left
     with easeinleft
 
-    Windy "Hey, CS.. You looked sexy runnin’ outta that prison.."
+    Windy "Hey, CS... You looked sexy runnin’ outta that prison.."
     CS "{i}Blush{/i}  Thank you.."
     Arceus "Guys, save this for when we're all safe, we need to get a car and get over the border."
     Windy "How are we supposed to cross the border with the new wall?"
@@ -728,7 +728,7 @@ label hohsisrevenge:
     show border
     with fade
 
-    "{i}CS, Windy , and Arceus get to the border crossing.{/i}"
+    "{i}CS, Windy, and Arceus get to the border crossing.{/i}"
     "{i}A border guard appears.{/i}"
 
     show borderguard at center
@@ -748,7 +748,7 @@ label hohsisrevenge:
     hide arceus
     with easeoutright
 
-    CS "Now that we're over the border and can breathe easy, I wanted to ask you something Windy ."
+    CS "Now that we're over the border and can breathe easy, I wanted to ask you something Windy."
 
     show windy at center
     with easeintop
@@ -791,12 +791,12 @@ label hohsisrevenge:
     with fade
 
     CS "Wow, that was great!"
-    "{i}Windy blushes..{/i}"
+    "{i}Windy blushes...{/i}"
 
     show windy at center
     with easeintop
 
-    Windy "Thanks…."
+    Windy "Thanks..."
     CS "Oh, I was talking about the donut but the kiss was good too."
     CS "About 88 percent as good as the donut."
     Windy "I'll take it."
@@ -830,8 +830,8 @@ label hohsisrevenge:
 
     Linus "Sure, you can have a job, just show us proof of citizenship and you're ready to go!"
     CS "Colour is spelled with a u, eh."
-    Linus "I need actual papers. The last time I hired someone who used that as proof of citizenship, I got fined and had to sell one of my 1000s of GTX Titans."
-    CS "Ummmm..... I'll be right back."
+    Linus "I need actual papers. The last time I hired someone who used that as proof of citizenship, I got fined and had to sell one of my thousands of GTX Titans."
+    CS "Ummmm... I'll be right back."
 
     hide linus
     with easeoutbottom
@@ -839,7 +839,7 @@ label hohsisrevenge:
     hide linusoffice
     with dissolve
 
-    "{i}CS leaves and talks to Windy .{/i}"
+    "{i}CS leaves and talks to Windy.{/i}"
     show insidehortons
 
     show Windy at center
@@ -850,7 +850,7 @@ label hohsisrevenge:
     Windy "Trudeau is trying to make Canada more diverse by letting gay married couples get citizenship, we just have to get married and then you can work here."
     CS "We don't have the money to get married!"
     Windy "We can have a cheap wedding at one of your Canadian fan's houses."
-    CS "Well, I know Nova lives around here, so we can have the wedding at his house."
+    CS "Well, I know Nova lives around here, so we can have the wedding at their house."  # Switched this to "their", no one should question that.
 
     hide windy
     with easeoutbottom
