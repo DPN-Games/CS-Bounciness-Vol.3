@@ -2,6 +2,7 @@
 
 #Characters.
 #define varname = Character("name")
+#Character names should be PascalCase.
 define CS = Character("CS188")
 define Craptop = Character("Craptop")
 define CopGuy = Character("Cop Guy")
@@ -20,6 +21,7 @@ define BorderGuard = Character("Border Guard")
 
 #Backgrounds.
 #image name = "dir/file.filetype"
+#Image variables should be all lowercase.
 image csroom = "background/CS_bedroom1.jpg"
 image csroom_window = "background/CS_bedroom2.jpg"
 image craptop1 = "background/craptop_error.jpg"
@@ -48,9 +50,10 @@ image jailcell = "background/jail_cell.jpg"
 
 #Character images.
 #image name = "dir/file.filetype"
+#Image variables should be all lowercase.
 image arceus = "characters/arceus3251.png"
-image CS = "characters/csocola_neutral.png"
-image CShappy = "characters/csocola_happy.png"
+image cs = "characters/csocola_neutral.png"
+image cshappy = "characters/csocola_happy.png"
 image nova1 = "characters/nova.png"
 image carguy = "characters/carguy_anime.png"
 image copguy = "characters/copguy.png"
@@ -69,32 +72,32 @@ label start:
     
     #$ renpy.movie_cutscene("introHD.ogv")
     
-    show CS at left
+    show cs at left
 
     CS "Welp, time to start up the ol' Craptop."
 
     scene craptop1
-    show CS at left
+    show cs at left
     Craptop "Your PC sux. lol."
     
     scene craptop2
-    show CS at left
+    show cs at left
     Character("Sticky Note") "Delete the CS Discord."
     CS "Eh, maybe tomorrow"
     
     scene craptop3
-    show CS at left
+    show cs at left
     Craptop "Downloading update 200/13."
-    show CS at left
+    show cs at left
     Craptop "Update complete"
     scene craptop4    
-    hide CS at left
+    hide cs at left
     show cshappy at left
     CS "OoOoOoOoO yes!"
     CS "Time to watch car crash videos for the next couple hours!"
     "Two hours later....."   
     scene csroom
-    show CS at left
+    show cs at left
     CS "Okay, what to do now?"
     CS "I could go outside, look at some flowers..."
     
@@ -110,20 +113,20 @@ label outside:
     CS "Well, I guess it's car time."
     
     scene cscaroutside
-    show CarGuy at right
+    show carguy at right
     CarGuy "*walks up* Nice car!"
-    show CS at left
+    show cs at left
     CS "It's pretty nice, but it's got some scratches."
-    show CarGuy at right
+    show carguy at right
     CarGuy "Nooot so nice scratch..."
     CarGuy "You should try Crotch Doctor!"
-    hide CS
-    show CS at left
+    hide cs
+    show cs at left
     CS "OH GOD AN ADVERTISER!"
     CS "QUICK START THE CAR! START THE CAR!"
 
     scene cscarinside
-    show CS at left
+    show cs at left
     CS "Whew, that was close."
     CS "Should I go get groceries?"
 
@@ -144,9 +147,9 @@ label walmart:
     "CS walks inside."
     scene walmartinside
     show greeter at right
-    greeter "Hello! Welcome to Walmart. Can I help you with anything?"
+    Greeter "Hello! Welcome to Walmart. Can I help you with anything?"
     CS "Wow! It's Walmart CEO Doug McMillon. You actually work here?"
-    greeter "Of course, they were short a greeter today, so I filled the slot."
+    Greeter "Of course, they were short a greeter today, so I filled the slot."
     CS "Wow! He seems like a good man and definitely not a ruthless oligarch who mistreats and underpays employees despite massive profit margins."
     CS "Now, let's find some food."
     
@@ -164,7 +167,7 @@ label walmart:
 
     scene walmartoutside
     CS "Let's get to the car."
-    show CarGuy at right
+    show carguy at right
     CarGuy "Noooooot so nice scratch."
     CS "Not you again!"
     CS "I gotta get outta here!"
@@ -193,23 +196,24 @@ label homefromwalmart:
     CS "Man, it was so easy back then. All you needed was Windows Movie Maker and some effects. If only it was that easy now......."
 
     CS "Oh look, a flashback. What a coincidence..."
-    hide CS
+    hide cs
     "hey flashback time"
     
     scene csroom with irisin
     show youngcs
-    ycs "Hey guys, Young CS here. Today I'm gonna be editing a new craAaAaAaAaAaAazy video!"
+    YCS "Hey guys, Young CS here. Today I'm gonna be editing a new craAaAaAaAaAaAazy video!"
     "*keyboard tapping*"
-    ycs "Ohhhhhh YeEeEeEeEess! This is lookin' good!"
+    YCS "Ohhhhhh YeEeEeEeEess! This is lookin' good!"
     hide youngcs
 
     scene csroom with irisout
-    show CS at left
+    show cs at left
     CS "Oh. Flashback over."
-    show CS at right
+    show cs at right
     jump needfoundationrepair
 
-label needfoundationrepair:  
+label needfoundationrepair:
+    # Put like, a crash sound and a particle effect here.  
     CS "Woah. I was dreaming so long that the foundation fell apart. My house just fell to the side."
     CS "I really need to get some foundation repair."
     CS "Better call HoH SiS!"
@@ -227,17 +231,17 @@ label needfoundationrepair:
     CS "Lemme go get the door"
     
     scene dooropen
-    show CS at left
+    show cs at left
     CS "Hello! I am CS188, and I-"
-    show Ed at right
+    show ed at right
     Ed "Alright, that will be 200 cstars."
     CS "Okay, I guess they already told you what I need done... Lemme get my wallet."
     CS "Here you go. I'll get out of you guys' hair while you work."
     "{i}CS leaves.{/i}"
-    hide CS
-    show Ed
+    hide cs
+    show ed
     Ed "Come on in guys. CS left."
-    show Ed at right
+    show ed at right
     Ed "So now that we're here, what should we do to him?"
     "Ed, Wesley and Richard" "Hmmm..."
     Ed "Let's go check his room. We might get some ideas"
@@ -271,12 +275,12 @@ label needfoundationrepair:
     
     scene outside
     show richard at right
-    rich "Lemme call our JoJ UFO."
-    show Ed at left
+    Rich "Lemme call our JoJ UFO."
+    show ed at left
     Ed "Ready?"
     "Ed, Wesley and Richard" "I'm beaming up!"
     scene doorclosed
-    show CS at left
+    show cs at left
     CS "Things sure are boooooring around here."
     CS "I should check on the HoH SiS folks. They should be making some progress by now"
     "{i}CS walks into his room.{/i}"
@@ -292,10 +296,10 @@ label hohsisrevenge:
     CS "I need to go get those guys!"
     CS "I'm gonna go to HoH SiS HQ and show them who's boss!"
     scene cscarinside
-    show CS at left
+    show cs at left
     "..."
     scene office1
-    show CS at left
+    show cs at left
     show corndog at right
     CS "Alright, where are the head JoJites?!"
     "Worker 1" "I don't know!"
@@ -306,13 +310,13 @@ label hohsisrevenge:
     "Worker 2" "They-- They're on the roof!"
     CS "Good!"
     scene elevator
-    show CS
+    show cs
     "..."
     scene helipad
-    show CS at left
+    show cs at left
     show richard at right
     CS "You!"
-    rich "Uh-oh."
+    Rich "Uh-oh."
     CS "You'll pay for what you did!"
     hide richard
     show wesley at right
@@ -347,7 +351,7 @@ label hohsisrevenge:
 
     CS "That'll teach you not to miss with a nerd's computer!"
 
-    show Ed at right
+    show ed at right
     with easeinright
 
     Ed "Hello, 911? My boss just got knocked out by a disgruntled customer and appears to be dying! Send help!"
@@ -361,22 +365,22 @@ label hohsisrevenge:
     hide Ed
     with easeoutright
 
-    show Copguy at right
+    show copguy at right
     with easeinright
 
-    Copguy "Hey! Get back here!"
+    CopGuy "Hey! Get back here!"
 
     CS "You can't catch me, I'm the speedy Michael Rosen!"
 
     "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
 
-    hide CS
+    hide cs
     with easeoutleft
 
-    hide Copguy
+    hide copguy
     with easeoutright
 
-    hide Helipad
+    hide helipad
     with dissolve
 
     jump jail
@@ -391,27 +395,27 @@ label hohsisrevenge:
 
     CS "Like hell I will!"
 
-    hide CS
+    hide cs
     with easeoutleft
 
     hide wesley
     with easeoutright
 
-    hide Helipad
+    hide helipad
     with fade
 
     scene office1
     with fade
 
-    show Ed at right
+    show ed at right
     with easeinright
 
     Ed "911? Help! My boss just got attacked by a customer and now they're fighting right here in the office!"
 
-    hide Ed
+    hide ed
     with easeoutright
 
-    show CS at left
+    show cs at left
     with easeinleft
 
     CS "Dammit! Ed's calling the police! I need to finish this fast!"
@@ -420,19 +424,19 @@ label hohsisrevenge:
 
     "{i}CS runs away.{/i}"
 
-    show Copguy at right
+    show copguy at right
     with easeinright
 
-    Copguy "Get back here!"
+    CopGuy "Get back here!"
 
     CS "You can't catch me, I'm the speedy Michael Rosen!"
 
     "{i}As CS is not actually the speedy Michael Rosen, he gets caught by the police.{/i}"
 
-    hide CS
+    hide cs
     with easeoutleft
 
-    hide Copguy
+    hide copguy
     with easeoutright
 
     hide office1
@@ -446,7 +450,7 @@ label hohsisrevenge:
     hide wesley
     with easeoutright
 
-    show Ed at right
+    show ed at right
     with easeinright
     
     Ed "Hello, 911? My boss just got kicked off of our roof by a disgruntled customer and appears to be dying! Send help!"
@@ -460,19 +464,19 @@ label hohsisrevenge:
     hide Ed
     with easeoutright
 
-    show Copguy at right
+    show copguy at right
     with easeinright
 
-    Copguy "Hey! Get back here!"
+    CopGuy "Hey! Get back here!"
 
     CS "You can't catch me, I'm the speedy Michael Rosen!"
 
     "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
 
-    hide CS
+    hide cs
     with easeoutleft
 
-    hide Copguy
+    hide copguy
     with easeoutright
 
     hide Helipad
@@ -484,7 +488,7 @@ label hohsisrevenge:
 
     CS "Take this!"
 
-    hide CS
+    hide cs
     with easeoutleft
 
     hide wesley
@@ -498,29 +502,29 @@ label hohsisrevenge:
 
     "{i}CS uses the magic of YTP to make Wesley shoot his employees.{/i}"
 
-    show CS at left
+    show cs at left
     with easeinleft
    
     CS "Dammit! The police are here! They must have heard the gun shots!!"
 
     "{i}The police arrive and CS runs away.{/i}"
 
-    hide Ed
+    hide ed
     with easeoutright
 
-    show Copguy at right
+    show copguy at right
     with easeinright
 
-    Copguy "Hey! Get back here!"
+    CopGuy "Hey! Get back here!"
 
     CS "You can't catch me, I'm the speedy Michael Rosen!"
 
     "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
 
-    hide CS
+    hide cs
     with easeoutleft
 
-    hide Copguy
+    hide copguy
     with easeoutright
 
     hide office1
@@ -533,17 +537,17 @@ label hohsisrevenge:
     scene jailcell
     with fade
 
-    show CS at left
+    show cs at left
     with easeinleft
 
-    show Copguy at right
+    show copguy at right
     with easeinright
 
-    Copguy "Alright, welcome to the slammer. How tough are ya?"
+    CopGuy "Alright, welcome to the slammer. How tough are ya?"
     CS "How tough am I?! How, tough, am, I?! I beat Cuphead!"
-    Copguy "So?"
+    CopGuy "So?"
     CS "In under 90 minutes!"
-    Copguy "Okay! You're tough enough to get your choice of cellmate, which one do you want?"
+    CopGuy "Okay! You're tough enough to get your choice of cellmate, which one do you want?"
     menu:
 
          "Who do you want to be your cellmate?"
@@ -558,13 +562,13 @@ label hohsisrevenge:
     CS "I choose Arceus."
     Copguy "Alright, but be warned. This person was arrested for cutting a tax collector with his nose."
 
-    hide Copguy
+    hide copguy
     with easeoutright
 
     CS "Alrighty then…."
     CS "Hello, Arceus."
 
-    show Arceus at center
+    show arceus at center
     with easeintop
 
     Arceus "Aye, Boss. .w."
@@ -583,24 +587,24 @@ label hohsisrevenge:
     Arceus "Windy? Eh... He's a bit of a stick in the mud, but sure. He may be of use to us."
     CS "Alright then, let's get going!"
 
-    hide Arceus
+    hide arceus
     with easeoutbottom
 
-    hide CS
+    hide cs
     with easeoutleft
 
     jump breakout
 
     label windycellmate:
     CS "I choose Windy."
-    Copguy "Okay." 
+    CopGuy "Okay." 
 
-    hide Copguy
+    hide copguy
     with easeoutright
 
     CS "Hey Windy ."
 
-    show Windy at center
+    show windy at center
     with easeintop
 
     Windy "Hey.."
@@ -618,7 +622,7 @@ label hohsisrevenge:
     CS "I think I have some ideas, I've played a LOT of the escapists."
     Windy "Works for me, let's do this!"
 
-    hide CS
+    hide cs
     with easeoutleft
 
     hide Windy 
@@ -643,75 +647,75 @@ label hohsisrevenge:
     CS "You kidding me? I'm gonna shit myself 'cuz this is scary as hell."
     Arceus "Fair enough."
 
-    hide Arceus
+    hide arceus
     with easeoutbottom
 
     "{i}The day ends, the next day progresses, CS and Arceus gather the required essentials for their escape. Along the way, they inform Windy , who more than happily complies with the plan.{/i}" 
     "{i}The next evening....{/i}"
     CS "Key, Check."
 
-    show Arceus at right
+    show arceus at right
     with easeinright
 
     Arceus "Uniforms, Check."
 
-    show Windy  at left
+    show windy  at left
     with easeinleft
 
-    Windy  "Spoons, Check."
+    Windy "Spoons, Check."
     CS "Extra Shorts."
     CS "Check."
     CS "Alright men, let's get the heck out of here!"
 
-    hide Arceus
+    hide arceus
     with easeoutright
 
-    hide Windy 
+    hide windy
     with easeoutleft
 
     "{i}The plan goes off without a hitch, the three ditch their Prison Outfits, and put on their guard uniforms.{/i}" 
     "{i}In the midst of them changing, Windy  notices CS's butt and compliments it.{/i}"
 
-    show Windy  at right
+    show windy at right
     with easeinright
 
-    Windy  "CS.. Nice Ass.."
+    Windy "CS.. Nice Ass.."
     CS "Thank you."
 
-    show Arceus at left
+    show arceus at left
     with easeinleft
 
     Arceus "Save it for later, love birds." 
 
-    hide Arceus
+    hide arceus
     with easeoutleft
 
-    hide Windy 
+    hide windy
     with easeoutright
 
     "{i}The Three dig their way out of the cell and make a break into the dark of the evening.{/i}"
     CS "Jeez.. I didn't think that would actually work."
 
-    show Arceus at right
+    show arceus at right
     with easeinright
 
     Arceus "You what?" 
 
-    show Windy  at left
+    show windy at left
     with easeinleft
 
-    Windy  "Hey, CS.. You looked sexy runnin’ outta that prison.."
+    Windy "Hey, CS.. You looked sexy runnin’ outta that prison.."
     CS "{i}Blush{/i}  Thank you.."
     Arceus "Guys, save this for when we're all safe, we need to get a car and get over the border."
-    Windy  "How are we supposed to cross the border with the new wall?"
+    Windy "How are we supposed to cross the border with the new wall?"
     Arceus "Not the Mexican border, the Canadian border, we're in New York, it's way closer and they're too polite to send us back."
     CS "Works for me, free healthcare."
     Arceus "Well, you have to live there for a few years before you get access to that, but you should last a few years without getting sick living on that healthy diet of Ritz and EZ cheese."
 
-    hide Arceus
+    hide arceus
     with easeoutright
 
-    hide Windy 
+    hide windy
     with easeoutleft
 
     hide jailcell
@@ -721,18 +725,18 @@ label hohsisrevenge:
 
     label bordercrossing:
 
-    show Border
+    show border
     with fade
 
     "{i}CS, Windy , and Arceus get to the border crossing.{/i}"
     "{i}A border guard appears.{/i}"
 
-    show BorderGuard at center
+    show borderguard at center
     with easeintop
 
     BorderGuard "I'm going to need proof of citizenship, eh."
 
-    show Arceus at right
+    show arceus at right
     with easeinright
 
     Arceus "Colour is spelled with a u, eh."
@@ -741,69 +745,69 @@ label hohsisrevenge:
     hide BorderGuard
     with easeoutbottom
 
-    hide Arceus
+    hide arceus
     with easeoutright
 
     CS "Now that we're over the border and can breathe easy, I wanted to ask you something Windy ."
 
-    show Windy  at center
+    show windy at center
     with easeintop
 
-    Windy  "Yeah?"
+    Windy "Yeah?"
     CS "You made a couple passes at me on the trip to here. Was there anything behind that or were you just joking around?"
-    Windy  "Which one would you prefer?"
+    Windy "Which one would you prefer?"
     CS "The former, I mean, I've been single for a while, so I'll take what I can get."
-    Windy  "Well, I suppose I have good news for you then…."
+    Windy "Well, I suppose I have good news for you then…."
 
-    hide Windy 
+    hide windy
     with easeoutbottom
 
-    show Windy  at left
+    show windy at left
     with easeinleft
 
-    show Arceus at right
+    show arceus at right
     with easeinright
 
     Arceus "Are you lovebirds hungry? I'm gonna stop for food at Tim Horton's."
 
-    hide Arceus
+    hide arceus
     with easeoutright
 
-    hide Windy 
+    hide windy
     with easeoutleft
 
-    hide Border
+    hide border
     with fade
 
-    show OutsideHortons
+    show uutsidehortons
     with fade
 
     "{i}At the Tim Horton's, Windy and CS share a donut. After they finish the donut, Windy steals a kiss.{/i}"
 
-    hide OutsideHortons
+    hide outsidehortons
     with dissolve
 
-    show InsideHortons
+    show insidehortons
     with fade
 
     CS "Wow, that was great!"
-    "{i}Windy  blushes..{/i}"
+    "{i}Windy blushes..{/i}"
 
-    show Windy  at center
+    show windy at center
     with easeintop
 
-    Windy  "Thanks…."
+    Windy "Thanks…."
     CS "Oh, I was talking about the donut but the kiss was good too."
     CS "About 88 percent as good as the donut."
-    Windy  "I'll take it."
+    Windy "I'll take it."
 
-    hide Windy 
+    hide windy
     with easeoutbottom
 
-    show Windy  at left
+    show windy at left
     with easeinleft
 
-    show Arceus at right
+    show arceus at right
     with easeinright
 
     Arceus "Sorry to interrupt you two, but we may have a problem, that donut cost me the last of my money, so we need to find a way to make some cash."
@@ -812,16 +816,16 @@ label hohsisrevenge:
     hide Arceus
     with easeoutright
 
-    hide Windy 
+    hide windy
     with easeoutleft
 
-    CS "I have a lot of video editing experience, maybe I can get a job there."
+    CS "I have a lot of video editing experience, maybe I can get a joj... er, a job there."
     "{i}CS walks into the studio and asks for a job.{/i}"
 
-    show LinusOffice
+    show linusoffice
     with fade
 
-    show Linus at center
+    show linus at center
     with easeintop
 
     Linus "Sure, you can have a job, just show us proof of citizenship and you're ready to go!"
@@ -829,45 +833,45 @@ label hohsisrevenge:
     Linus "I need actual papers. The last time I hired someone who used that as proof of citizenship, I got fined and had to sell one of my 1000s of GTX Titans."
     CS "Ummmm..... I'll be right back."
 
-    hide Linus
+    hide linus
     with easeoutbottom
 
-    hide LinusOffice
+    hide linusoffice
     with dissolve
 
     "{i}CS leaves and talks to Windy .{/i}"
-    show InsideHortons
+    show insidehortons
 
-    show Windy  at center
+    show Windy at center
     with easeintop
 
     CS "I need to get proof of citizenship, or at least fake proof of citizenship before I can get a joj here."
-    "{i}Windy  gets an idea and begins to blush.{/i}"
-    Windy  "Trudeau is trying to make Canada more diverse by letting gay married couples get citizenship, we just have to get married and then you can work here."
+    "{i}Windy gets an idea and begins to blush.{/i}"
+    Windy "Trudeau is trying to make Canada more diverse by letting gay married couples get citizenship, we just have to get married and then you can work here."
     CS "We don't have the money to get married!"
-    Windy  "We can have a cheap wedding at one of your Canadian fan's houses."
+    Windy "We can have a cheap wedding at one of your Canadian fan's houses."
     CS "Well, I know Nova lives around here, so we can have the wedding at his house."
 
-    hide Windy 
+    hide windy
     with easeoutbottom
 
-    hide InsideHortons
+    hide insidehortons
     with dissolve
 
     jump wedding
 
     label wedding:
 
-    show WeddingScene
+    show weddingscene
     with fade
 
-    show CS at left
+    show cs at left
     with easeinleft
 
-    show Windy  at right
+    show windy at right
     with easeinright
 
-    show FatherDigBick at center
+    show fatherdigbick at center
     with easeintop
 
     FatherDigBick "Do you, Windyman, take NAME REDACTED to be your lawfully wedded husband?"
@@ -875,19 +879,19 @@ label hohsisrevenge:
     FatherDigBick "And do you, NAME REDACTED, take Windyman to be your lawfully wedded husband?"
     CS "I do."
 
-    hide CS
+    hide cs
     with easeoutleft
 
-    hide Windy 
+    hide windy
     with easeoutright
 
-    hide FatherDigBick
+    hide fatherdigbick
     with easeoutbottom
 
     jump trueend
 
-    hide WeddingScene
+    hide weddingscene
 
-    hide Helipad 
+    hide helipad
 
     jump trueend
