@@ -18,7 +18,7 @@ define Wesley = Character("Wesley")
 define Windy = Character("Windyman")
 define Arceus = Character("Arceus")
 define BorderGuard = Character("Border Guard")
-
+define Linus = Character("Linus Sebastian")
 # Backgrounds.
 # Image name = "dir/file.filetype"
 # Image variables should be all lowercase.
@@ -42,8 +42,12 @@ image factory = "background/factory.jpg"
 image elevator = "background/elevator.jpg"
 image helipad = "background/helipad.jpg"
 image black = "background/black.jpg"
-image office1 = "background/office1.jpg"
+image office1 = "background/Office_1.jpg"
 image jailcell = "background/jail_cell.jpg"
+image jailinside = "background/jail_inside.jpg"
+image border = "background/canadian_border.jpg"
+image outsidehortons = "background/outside_tim_hortons.jpg"
+image insidehortons = "background/inside_tim_hortons.jpg"
 
 # Movies.
 # image name = "dir/file.filetype"
@@ -55,7 +59,7 @@ image arceus = "characters/arceus3251.png"
 image cs = "characters/csocola_neutral.png"
 image cshappy = "characters/csocola_happy.png"
 image nova1 = "characters/nova.png"
-image carguy = "characters/carguy_anime.png"
+image carguy = "characters/carguy.png"
 image copguy = "characters/copguy.png"
 image discord = "characters/discord.png"
 image greeter = "characters/walmart_CEO.png"
@@ -473,7 +477,7 @@ label beforejail:
 
 label jail:
 
-    scene jailcell
+    scene jailinside #TODO jail_inside is too big
     with fade
 
     show cs at left
@@ -499,7 +503,7 @@ label jail:
 
 label arceuscellmate:
     CS "I choose Arceus."
-    Copguy "Alright, but be warned. This person was arrested for cutting a tax collector with his nose."
+    CopGuy "Alright, but be warned. This person was arrested for cutting a tax collector with his nose."
 
     hide copguy
     with easeoutright
@@ -665,7 +669,7 @@ label breakout:
 
 label bordercrossing:
 
-    show border
+    scene border
     with fade
 
     "{i}CS, Windy, and Arceus get to the border crossing.{/i}"
@@ -719,7 +723,7 @@ label bordercrossing:
     hide border
     with fade
 
-    show uutsidehortons
+    show outsidehortons
     with fade
 
     "{i}At the Tim Horton's, Windy and CS share a donut. After they finish the donut, Windy steals a kiss.{/i}"
