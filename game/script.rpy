@@ -1,4 +1,4 @@
-# Variable declaration.
+﻿# Variable declaration.
 
 # Characters.
 # Define varname = Character("name")
@@ -323,9 +323,6 @@ label hohsisrevenge:
     Wesley "Do you want a refund?"
     CS "I'll refund your face to the floor!"
 
-    # TODO: This tree is weird. There's repeated lines at the end of each bit, which
-    # should probably just be its own section, right?
-
     menu:
 
         "What attack would you like to use?"
@@ -364,30 +361,7 @@ label hohsisrevenge:
 
         Ed "911! Come quickly! He's chasing after me!"
 
-        "{i}The police arrive and CS runs away.{/i}"
-
-        hide ed
-        with easeoutright
-
-        show copguy at right
-        with easeinright
-
-        CopGuy "Hey! Get back here!"
-
-        CS "You can't catch me, I'm the speedy Michael Rosen!"
-
-        "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
-
-        hide cs
-        with easeoutleft
-
-        hide copguy
-        with easeoutright
-
-        hide helipad
-        with dissolve
-
-        jump jail
+        jump beforejail
 
     label chop:
 
@@ -424,29 +398,9 @@ label hohsisrevenge:
 
         CS "Dammit! Ed's calling the police! I need to finish this fast!"
 
-        "{i}The fight continues and the police arrive.{/i}"
+        "{i}The fight continues.{/i}"
 
-        "{i}CS runs away.{/i}"
-
-        show copguy at right
-        with easeinright
-
-        CopGuy "Get back here!"
-
-        CS "You can't catch me, I'm the speedy Michael Rosen!"
-
-        "{i}As CS is not actually the speedy Michael Rosen, he gets caught by the police.{/i}"
-
-        hide cs
-        with easeoutleft
-
-        hide copguy
-        with easeoutright
-
-        hide office1
-        with dissolve
-
-        jump jail
+        jump beforejail
 
     label kick:
         $ renpy.movie_cutscene("kick.ogv")
@@ -463,30 +417,7 @@ label hohsisrevenge:
 
         Ed "911! Come quickly! He's chasing after me!"
 
-        "{i}The police arrive and CS runs away.{/i}"
-
-        hide ed
-        with easeoutright
-
-        show copguy at right
-        with easeinright
-
-        CopGuy "Hey! Get back here!"
-
-        CS "You can't catch me, I'm the speedy Michael Rosen!"
-
-        "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
-
-        hide cs
-        with easeoutleft
-
-        hide copguy
-        with easeoutright
-
-        hide Helipad
-        with dissolve
-
-        jump jail
+        jump beforejail
 
     label special:
 
