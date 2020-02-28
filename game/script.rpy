@@ -1,7 +1,7 @@
 ﻿# Variable declaration.
 
-#C haracters.
-# define varname = Character("name")
+# Characters.
+# Define varname = Character("name")
 # Character names should be PascalCase.
 define CS = Character("CS188")
 define Craptop = Character("Craptop")
@@ -20,8 +20,8 @@ define Arceus = Character("Arceus")
 define BorderGuard = Character("Border Guard")
 
 # Backgrounds.
-# image name = "dir/file.filetype"
-#I mage variables should be all lowercase.
+# Image name = "dir/file.filetype"
+# Image variables should be all lowercase.
 image csroom = "background/CS_bedroom1.jpg"
 image csroom_window = "background/CS_bedroom2.jpg"
 image craptop1 = "background/craptop_error.jpg"
@@ -95,7 +95,7 @@ label start:
     show cshappy at left
     CS "OoOoOoOoO yes!"
     CS "Time to watch car crash videos for the next couple hours!"
-    "Two hours later....."   
+    "Two hours later..."   
     scene csroom
     show cs at left
     CS "Okay, what to do now?"
@@ -569,7 +569,7 @@ label arceuscellmate:
     hide copguy
     with easeoutright
 
-    CS "Alrighty then…."
+    CS "Alrighty then..."
     CS "Hello, Arceus."
 
     show arceus at center
@@ -583,7 +583,7 @@ label arceuscellmate:
     CS "I was 100 percent unsatisfied."
     Arceus "As was I. As was I..."
     "{i}A brief moment of silence...{/i}"
-    Arceus "Welp, I'm bored of this place… Wanna break out? :3"
+    Arceus "Welp, I'm bored of this place... Wanna break out? :3"
     CS "Eh.. Sure, why not, I've played plenty of the Escapists, I should be able to figure it out."
     CS "We should break out at least one other person though."
     Arceus "Alright, who do ya wanna break out...?"
@@ -614,7 +614,7 @@ label windycellmate:
     Windy "Hey..."
     CS "So what're you in for?"
     Windy "..."
-    "{i}Windy  begins to stare longingly at CS…{/i}"
+    "{i}Windy  begins to stare longingly at CS...{/i}"
     CS "Well, you don't talk much do you?"
     Windy "Huh, sorry, I got lost in thought..."
     CS "About what?"
@@ -708,8 +708,8 @@ label breakout:
     show windy at left
     with easeinleft
 
-    Windy "Hey, CS... You looked sexy runnin’ outta that prison.."
-    CS "{i}Blush{/i}  Thank you.."
+    Windy "Hey, CS... You looked sexy runnin’ outta that prison..."
+    CS "{i}Blush{/i}  Thank you..."
     Arceus "Guys, save this for when we're all safe, we need to get a car and get over the border."
     Windy "How are we supposed to cross the border with the new wall?"
     Arceus "Not the Mexican border, the Canadian border, we're in New York, it's way closer and they're too polite to send us back."
@@ -761,7 +761,7 @@ label bordercrossing:
     CS "You made a couple passes at me on the trip to here. Was there anything behind that or were you just joking around?"
     Windy "Which one would you prefer?"
     CS "The former, I mean, I've been single for a while, so I'll take what I can get."
-    Windy "Well, I suppose I have good news for you then…."
+    Windy "Well, I suppose I have good news for you then..."
 
     hide windy
     with easeoutbottom
