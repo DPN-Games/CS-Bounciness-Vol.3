@@ -160,9 +160,9 @@ label walmart:
     "CS walks to checkout."
     scene walmartcheckout
     CS "Here's my stuff."
-    cashier "That'll be $11.88."
+    Cashier "That'll be $11.88."
     CS "Here you go."
-    cashier "Have a good day."
+    Cashier "Have a good day."
     CS "You too. Bye!"
 
     scene walmartoutside
@@ -255,7 +255,7 @@ label needfoundationrepair:
     show wesley at left
     Wesley "Alright, but now what should we do?"
     show richard at right
-    rich "How about we mess with his laptop?"
+    Rich "How about we mess with his laptop?"
     hide richard
     show ed at left
     Ed "Ehh..."
@@ -602,7 +602,7 @@ label breakout:
     with easeinleft
 
     Windy "Spoons, check."
-    CS "Extra shorts."
+    CS "Extra shorts..."
     CS "Check."
     CS "Alright men, let's get the heck out of here!"
 
