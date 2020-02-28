@@ -1,4 +1,4 @@
-﻿# Variable declaration.
+# Variable declaration.
 
 # Characters.
 # Define varname = Character("name")
@@ -278,7 +278,7 @@ label needfoundationrepair:
     Rich "Lemme call our JoJ UFO."
     show ed at left
     Ed "Ready?"
-    "Ed, Wesley and Richard" "I'm beaming up!"
+    Character("Ed, Wesley and Richard") "I'm beaming up!"
     scene doorclosed
     show cs at left
     CS "Things sure are boooooring around here."
@@ -302,12 +302,12 @@ label hohsisrevenge:
     show cs at left
     show corndog at right
     CS "Alright, where are the head JoJites?!"
-    "Worker 1" "I don't know!"
+    Character("Worker 1") "I don't know!"
     CS "BullShisH!"
     CS "{i}Punches worker.{/i}"
     hide corndog
     show grrx at right
-    "Worker 2" "They-- They're on the roof!"
+    Character("Worker 2") "They-- They're on the roof!"
     CS "Good!"
     scene elevator
     show cs
@@ -498,7 +498,7 @@ label hohsisrevenge:
         hide wesley
         with easeoutright
 
-        hide Helipad
+        hide helipad
         with fade
 
         scene office1
@@ -510,6 +510,10 @@ label hohsisrevenge:
         with easeinleft
     
         CS "Dammit! The police are here! They must have heard the gun shots!"
+
+        jump beforejail
+
+label beforejail:
 
         "{i}The police arrive and CS runs away.{/i}"
 
@@ -629,7 +633,7 @@ label windycellmate:
     hide cs
     with easeoutleft
 
-    hide Windy 
+    hide windy 
     with easeoutbottom
 
     jump breakout
@@ -637,7 +641,7 @@ label windycellmate:
 
 label breakout:
 
-    show Arceus at center
+    show arceus at center
     with easeintop
 
     Arceus "So, what's the plan? I've been tryna break outta here for 5 years."
@@ -661,7 +665,7 @@ label breakout:
     show arceus at right
     with easeinright
 
-    Arceus "Uniforms, Check."
+    Arceus "Uniforms, check."
 
     show windy  at left
     with easeinleft
@@ -697,7 +701,7 @@ label breakout:
     hide windy
     with easeoutright
 
-    "{i}The Three dig their way out of the cell and make a break into the dark of the evening.{/i}"
+    "{i}The three dig their way out of the cell and make a break into the dark of the evening.{/i}"
     CS "Jeez... I didn't think that would actually work."
 
     show arceus at right
@@ -709,7 +713,8 @@ label breakout:
     with easeinleft
 
     Windy "Hey, CS... You looked sexy runnin’ outta that prison..."
-    CS "{i}Blush{/i}  Thank you..."
+    "{i}CS blushes.{/i} "
+    CS "Thank you..."
     Arceus "Guys, save this for when we're all safe, we need to get a car and get over the border."
     Windy "How are we supposed to cross the border with the new wall?"
     Arceus "Not the Mexican border, the Canadian border, we're in New York, it's way closer and they're too polite to send us back."
@@ -746,7 +751,7 @@ label bordercrossing:
     Arceus "Colour is spelled with a u, eh."
     BorderGuard "Works for me, eh."
 
-    hide BorderGuard
+    hide borderguard
     with easeoutbottom
 
     hide arceus
@@ -817,7 +822,7 @@ label bordercrossing:
     Arceus "Sorry to interrupt you two, but we may have a problem, that donut cost me the last of my money, so we need to find a way to make some cash."
     "{i}CS looks across the street to see Linus Media Group.{/i}"
 
-    hide Arceus
+    hide arceus
     with easeoutright
 
     hide windy
@@ -846,7 +851,7 @@ label bordercrossing:
     "{i}CS leaves and talks to Windy.{/i}"
     show insidehortons
 
-    show Windy at center
+    show windy at center
     with easeintop
 
     CS "I need to get proof of citizenship, or at least fake proof of citizenship before I can get a joj here."
