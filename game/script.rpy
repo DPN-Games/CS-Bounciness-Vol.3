@@ -527,7 +527,7 @@ label arceuscellmate:
     CS "We should break out at least one other person though."
     Arceus "Alright, who do ya wanna break out...?"
     CS "Let's just break out that guy next to us, I think his name was Windy..."
-    Arceus "Windy? Eh... He's a bit of a stick in the mud, but sure. He may be of use to us."  # TODO: Change this line.
+    Arceus "Windy? Eh... I mean,  he can drive a mean car... sure, he may be of use to us."
     CS "Alright then, let's get going!"
 
     hide arceus
