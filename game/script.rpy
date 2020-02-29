@@ -226,7 +226,7 @@ label needfoundationrepair:
     CS "Hello, can you give me the JoJ?"
     Character("HoH SiS Operator") "Is this a prank caller on the line?"
     CS "No! My house really needs foundation repair! I need your help ASAP!"
-    "HoH SiS operator" "Alright, that will be 200 CStars. You can pay us afterwards."  #TODO: Replace this with Embers?
+    "HoH SiS operator" "Alright, that will be 200,000 Embers. You can pay us afterwards."
     "HoH SiS operator" "{i}hangs up{/i}"
     CS "Well, that is one thing taken care of."
     CS "I guess I'll work on my new YTP while I wait."
@@ -238,7 +238,7 @@ label needfoundationrepair:
     show cs at left
     CS "Hello! I am CS188, and I-"
     show ed at right
-    Ed "Alright, that will be 200 CStars."
+    Ed "Alright, that will be 200,000 Embers."
     CS "Okay, I guess they already told you what I need done... lemme get my wallet."
     CS "Here you go. I'll get out of you guys' hair while you work."
     "{i}CS leaves.{/i}"
