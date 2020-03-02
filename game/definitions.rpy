@@ -19,6 +19,7 @@ define Windy = Character("Windyman")
 define Arceus = Character("Arceus")
 define BorderGuard = Character("Border Guard")
 define Linus = Character("Linus Sebastian")
+define FatherDigBick = Character("Father DigBick")
 # Backgrounds.
 # Image name = "dir/file.filetype"
 # Image variables should be all lowercase with underscores (snake case).

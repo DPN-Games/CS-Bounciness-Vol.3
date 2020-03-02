@@ -517,10 +517,8 @@ label wedding:
     hide fatherdigbick
     with easeoutbottom
 
-    jump trueend
-
     hide weddingscene
 
     hide helipad
 
-    jump trueend
+    # jump trueend
