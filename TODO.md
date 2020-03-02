@@ -11,9 +11,9 @@ Mark things you aren't sure about with a superscript `?`.
 `Rewrite the entire project<sup>?</sup>`
 
 ## Story
-* Lineraize and retcon the stories of CSB1 and 2.
-  * CS Bounciness 1
-  * CS Bounciness 2
+* ~~Linearize and retcon the stories of CSB1 and 2.~~
+  * ~~CS Bounciness 1~~
+  * ~~CS Bounciness 2~~
 * Finish the flowchart for CSB3.
 * Convert CSB3 flowchart to script.
 
