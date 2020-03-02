@@ -25,7 +25,7 @@ define FatherDigBick = Character("Father DigBick")
 # Image name = "dir/file.filetype"
 # Image variables should be all lowercase with underscores (snake case).
 image csroom = "background/CS_bedroom1.jpg"
-image csroom_window = "background/CS_bedroom2.jpg"
+image csroomwindow = "background/CS_bedroom2.jpg"
 image craptop1 = "background/craptop_error.jpg"
 image craptop2 = "background/craptop_desktop.png"
 image craptop3 = "background/craptop_updating.jpg"
