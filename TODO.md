@@ -5,10 +5,17 @@ Strikeout items that are completed by encapulating them in `~~`.
 **Example:**  
 `* ~~Make a fool of myself.~~`
 
+Mark things you aren't sure about with a superscript `?`.
+
+**Example:**  
+`Rewrite the entire project<sup>?</sup>`
+
 ## Story
 * Lineraize and retcon the stories of CSB1 and 2.
   * CS Bounciness 1
   * CS Bounciness 2
+* Finish the flowchart for CSB3.
+* Convert CSB3 flowchart to script.
 
 ## Graphics
 * Remaster any sprites and backgrounds needed for CSB1/2.
@@ -16,13 +23,18 @@ Strikeout items that are completed by encapulating them in `~~`.
   * CS Bounciness 2
 * Remove shitty anime eyes from characters (the joke was never funny).
 * Get HD photos for all characters and backgrounds.
+* Standarize resolutions for backgrounds and characters.
+* Customize the GUI (needs basically an entire overhaul.)
 
 ## Coding
 * Make all character transitions similar to those in *Doki Doki*.
 * Make sure the right characters are on screen at the right times.
 * Make sure the character talking is being "emphasized" at all times.
+* Rename labels to be more specific (standarize these)<sup>?</sup>
 * ~~Seperate script into files for each game.~~
 
 ## Audio
 * Get music for each part of the game.
+* Get sound effects for parts of the game that require them.
 * Implement music into the code.
+* Implement SFX into the code.
