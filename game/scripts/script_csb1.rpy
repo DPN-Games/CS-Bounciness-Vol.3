@@ -39,7 +39,7 @@ label csb1_start:
     CS "Okay, what to do now?"
     CS "I could go outside, look at some flowers..."
     
-    scene csroom_window
+    scene csroomwindow
 
     CS "Oh, look out the window, there's a Michael Rosen!"
     CS "Yeah, let's go outside."
@@ -97,9 +97,11 @@ label walmart:
     "CS walks inside."
 
     scene walmartinside
-    show greeter at right
+    show greeter
 
     Greeter "Hello! Welcome to Walmart. Can I help you with anything?"
+    show cs at left
+    show greeter at right
     CS "Wow! It's Walmart CEO Doug McMillon. You actually work here?"
 
     define Greeter = Character("Doug")
@@ -116,6 +118,8 @@ label walmart:
     "CS walks to checkout."
 
     scene walmartcheckout
+    show cs at left
+    show cashier at right
 
     CS "Here's my stuff."
     Cashier "That'll be $11.88."
@@ -124,7 +128,8 @@ label walmart:
     CS "You too. Bye!"
 
     scene walmartoutside
-
+    
+    show cs at left 
     CS "Let's get to the car."
 
     show carguy at right
@@ -132,8 +137,10 @@ label walmart:
     CarGuy "Noooooot so nice scratch."
     CS "Not you again!"
     CS "I gotta get outta here!"
+    hide carguy
     
     scene cscarinside
+    show cs at left
     CS "Let's get home before that guy doctors my crotch!"
     "CS drives home and manages to avoid reenacting one of his favorite car crash videos."
 
@@ -141,12 +148,13 @@ label walmart:
 
 label homefromwalmart:    
     scene outside
-
+    show cs
     "CS walks inside and to his room."
-    CS "Ahh. It's good to be home!"
+    
     
     scene csroom
-
+    show cs at left
+    CS "Ahh. It's good to be home!"
     CS "You know, I haven't put out a YTP in a while. I should work on one of my in-progress ones."
     "CS walks to his craptop and opens up Premiere."
     
@@ -211,15 +219,15 @@ label needfoundationrepair:
     "{i}CS leaves.{/i}"
     
     hide cs
-    show ed
+    show ed at left
     
     Ed "Come on in, guys. CS left."
     
-    show ed at right
     
     Ed "So now that we're here, what should we do to him?"
     Character("Ed, Wesley and Richard") "Hmmm..."
-    Ed "Let's go check his room. We might get some ideas."
+    show wesley at left
+    Wesley "Let's go check his room. We might get some ideas."
     "{i} The three HoH SiS workers go upstairs. {/i}"
     
     scene csroom
@@ -266,9 +274,6 @@ label needfoundationrepair:
     
     Rich "Lemme call our JoJ UFO."
     
-    show ed at left
-    
-    Ed "Ready?"
     Character("Ed, Wesley and Richard") "I'm beaming up!"
     
     scene doorclosed
