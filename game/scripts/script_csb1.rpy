@@ -154,8 +154,8 @@ label needfoundationrepair:
     CS "Hello, can you give me the JoJ?"
     Character("HoH SiS Operator") "Is this a prank caller on the line?"
     CS "No! My house really needs foundation repair! I need your help ASAP!"
-    "HoH SiS operator" "Alright, that will be 200,000 Embers. You can pay us afterwards."
-    "HoH SiS operator" "{i}hangs up{/i}"
+    Character("HoH SiS operator") "Alright, that will be 200,000 Embers. You can pay us afterwards."
+    Character("HoH SiS operator") "{i}hangs up{/i}"
     CS "Well, that is one thing taken care of."
     CS "I guess I'll work on my new YTP while I wait."
     "{i}Time passes, and the doorbell rings.{/i}"
@@ -175,7 +175,7 @@ label needfoundationrepair:
     Ed "Come on in, guys. CS left."
     show ed at right
     Ed "So now that we're here, what should we do to him?"
-    "Ed, Wesley and Richard" "Hmmm..."
+    Character("Ed, Wesley and Richard") "Hmmm..."
     Ed "Let's go check his room. We might get some ideas."
     "{i} The three HoH SiS workers go upstairs. {/i}"
     

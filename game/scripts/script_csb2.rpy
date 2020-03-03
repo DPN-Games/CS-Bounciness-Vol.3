@@ -300,7 +300,7 @@ label breakout:
     with easeoutleft
 
     "{i}The plan goes off without a hitch, the three ditch their prison outfits, and put on their guard uniforms.{/i}" 
-    "{i}In the midst of them changing, Windy  notices CS's butt and compliments it.{/i}"
+    "{i}In the midst of them changing, Windy notices CS's butt and compliments it.{/i}"
 
     show windy at right
     with easeinright
