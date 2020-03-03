@@ -20,6 +20,12 @@ Adam "Arceus3251" Seltzer
 ### Graphics Lead
 Adam "Arceus3251" Seltzer
 
+### History Consultant
+Pakoo
+
+### Based on the community of
+CS188
+
 ### Music
 **Crossing Fields**  
 Sword Art Online  

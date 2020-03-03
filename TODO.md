@@ -1,4 +1,4 @@
-# CS Bounciness Volume 3 (TODO)
+# CS Bounciness III & CS Bounciness HD I.5 + II.5 ReMix TODO
 
 Strikeout items that are completed by encapulating them in `~~`.
 
