@@ -1,8 +1,6 @@
 label csb3_start:
     show linusoffice with fade
-
     show cs at left with fastdissolve
-
     show linus at right with fastdissolve
 
     CS "Okay Linus, I got my proof of citizenship."
@@ -10,30 +8,20 @@ label csb3_start:
     CS "It's okay, I get it. Thanks for the job, I'll see you tommorow."
 
     hide linus with fastdissolve
-
     hide cs with fastdissolve
-
     hide linusoffice with dissolve
-
     show linushallway with dissolve
-
     show cs at left with fastdissolve
-
     show linus at right with fastdissolve
 
     Linus "Welcome to Linus Media Group, come on in, I'll show you your desk."
     CS "Thanks Linus."
 
     hide cs with fastdissolve
-
     hide linus with fastdissolve
-
     hide linushallway with dissolve
-
     show csdesk with fade
-
     show cs at left with fastdissolve
-
     show linus at right with fastdissolve
 
     CS "Wow! I thought this was an office, why do I get such a cool desk?"
@@ -49,7 +37,6 @@ label csb3_start:
     CS "Let's see, I have the new TechQuickie video on how livestreaming works, or the video on how at least half of the keys on your keyboard should be macros..."
     CS "{i}Dammit Teran, you can edit your own macro fetish content.{/i}"
     CS "I guess I'll edit the livestreaming one."
-
     "{i}CS starts working on editing the TechQuickie video and Linus comes in to check on him.{/i}"
 
     show linus at right with fastdissolve
@@ -66,13 +53,9 @@ label csb3_start:
     CS "Alright, I'll go get the parts."
 
     hide linus with fastdissolve
-
     hide cs with fastdissolve
-
     hide csdesk with dissolve
-
     show microcenter with fade
-
     show cs with fade
 
-    CS "Okay gamers, we are buy some parts for our epic comuting machine. Let's go inside the magical concrete structure to buy some computing parts."
+    CS "Okay gamers, we are buying some parts for our epic comuting machine. Let's go inside the magical concrete structure to buy some computing parts."
