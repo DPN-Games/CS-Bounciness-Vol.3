@@ -80,6 +80,7 @@ label walmart:
     show greeter at right
     Greeter "Hello! Welcome to Walmart. Can I help you with anything?"
     CS "Wow! It's Walmart CEO Doug McMillon. You actually work here?"
+    define Greeter = Character("Doug")
     Greeter "Of course, they were short a greeter today, so I filled the slot."
     CS "Wow! He seems like a good man and definitely not a ruthless oligarch who mistreats and underpays employees despite massive profit margins."
     CS "Now, let's find some food."
