@@ -17,7 +17,18 @@ Mark things you aren't sure about with a superscript `?`.
 * Finish the flowchart for CSB3.
 * Convert CSB3 flowchart to script.
 
-## Graphics
+### Jokes
+* Sonic
+* Lego CITY
+* Tetris 99
+* Have a scene in a courtroom in the style of Pheonix Wright
+#### Specific Jokes
+* Once the game starts "getting weird", CS tries to signal to his viewers that something's up by just, streaming at a normal time.
+#### People Who Still Need To Be Characters
+* Digi
+* AWK
+
+## Graphics *(Arceus)*
 * Remaster any sprites and backgrounds needed for CSB1/2.
   * CS Bounciness 1
   * CS Bounciness 2
@@ -26,7 +37,7 @@ Mark things you aren't sure about with a superscript `?`.
 * Standarize resolutions for backgrounds and characters.
 * Customize the GUI (needs basically an entire overhaul.)
 
-## Coding
+## Coding *(mainly AWK)*
 * Make all character transitions similar to those in *Doki Doki*.
 * Make sure the right characters are on screen at the right times.
 * Make sure the character talking is being "emphasized" at all times.
