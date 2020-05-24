@@ -337,7 +337,7 @@ label bordercrossing:
     Linus "I need actual papers. The last time I hired someone who used that as proof of citizenship, I got fined and had to sell one of my thousands of GTX Titans."
     CS "Ummmm... I'll be right back."
 
-    hide linus with easeoutbot
+    hide linus with easeoutbottom
     hide linusoffice with dissolve
 
     "{i}CS leaves and talks to Windy.{/i}"
@@ -351,14 +351,14 @@ label bordercrossing:
     Windy "We can have a cheap wedding at one of your Canadian fan's houses."
     CS "Well, I know Nova lives around here, so we can have the wedding at their house."  # Switched this to "their", no one should question that.
 
-    hide windy with easeoutbott
-    hide insidehortons with dissol
+    hide windy with easeoutbottom
+    hide insidehortons with dissolve
     jump wedding
 
 label wedding:
-    show weddingscene with fad
-    show cs at left with easeinlef
-    show windy at right with easeinrigh
+    show weddingscene with fade
+    show cs at left with easeinleft
+    show windy at right with easeinright
     show fatherdigbick at center with easeintop
 
     # TODO: Glitch text formatting on the NAME REDACTEDs.
