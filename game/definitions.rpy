@@ -3,22 +3,22 @@
 # Characters.
 # Define varname = Character("name")
 # Character names should be PascalCase.
-define CS = Character("CS188")
+define CS = Character("CS188", color = "#FF960F")
 define Craptop = Character("Craptop")
 define CopGuy = Character("Cop Guy")
-define Discord = Character("Discord")
+define Discord = Character("Discord", color = "#7289DA")
 define Nova = Character("Nova")
 define CarGuy = Character("Car Guy")
-define Greeter = Character("Walmart Greeter")
-define Cashier = Character("Cashier")
+define Greeter = Character("Walmart Greeter", color = "#0D7AB2")
+define Cashier = Character("Cashier", color = "#0D7AB2")
 define YCS = Character("Young CS")
 define Ed = Character("Ed")
 define Rich = Character("Richard")
 define Wesley = Character("Wesley")
 define Windy = Character("Windyman")
-define Arceus = Character("Arceus")
+define Arceus = Character("Arceus", color = "#FFE878")
 define BorderGuard = Character("Border Guard")
-define Linus = Character("Linus Sebastian")
+define Linus = Character("Linus Sebastian", color = "#FE4C04")
 define FatherDigBick = Character("Father DigBick")
 
 # Backgrounds.
