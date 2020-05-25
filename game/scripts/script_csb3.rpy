@@ -58,4 +58,4 @@ label csb3_start:
     show microcenter with fade
     show cs with fade
 
-    CS "Okay gamers, we are buying some parts for our epic comuting machine. Let's go inside the magical concrete structure to buy some computing parts."
+    CS "Okay gamers, we are buying some parts for our epic computing machine. Let's go inside the magical concrete structure to buy some computing parts."
