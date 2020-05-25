@@ -28,7 +28,7 @@ Mark things you aren't sure about with a superscript `?`.
 * Digi
 * AWK
 
-## Graphics *(Arceus)*
+## Graphics *(Digi/Pakoo)*
 * Remaster any sprites and backgrounds needed for CSB1/2.
   * CS Bounciness 1
   * CS Bounciness 2
@@ -37,7 +37,7 @@ Mark things you aren't sure about with a superscript `?`.
 * Standarize resolutions for backgrounds and characters.
 * Customize the GUI (needs basically an entire overhaul.)
 
-## Coding *(mainly AWK)*
+## Coding *(AWK/Arc)*
 * Make all character transitions similar to those in *Doki Doki*.
 * Make sure the right characters are on screen at the right times.
 * Make sure the character talking is being "emphasized" at all times.
