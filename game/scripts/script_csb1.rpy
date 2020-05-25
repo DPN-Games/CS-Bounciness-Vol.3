@@ -104,7 +104,7 @@ label walmart:
     show greeter at right
     CS "Wow! It's Walmart CEO Doug McMillon. You actually work here?"
 
-    define Greeter = Character("Doug")
+    define Greeter = Character("Doug", color = "#0D7AB2")
 
     Greeter "Of course, they were short a greeter today, so I filled the slot."
     CS "Wow! He seems like a good man and definitely not a ruthless oligarch who mistreats and underpays employees despite massive profit margins."
