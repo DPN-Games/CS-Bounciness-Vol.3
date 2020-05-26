@@ -65,3 +65,8 @@
 * Character objects should be named in PascalCase.
 * Images, audio, and videos should be named in snake_case. (All lowercase with underscores.)
   * This includes their filenames.
+
+## Images
+
+* Backgrounds should be opaque PNGs of resolution 1920x1080.
+* Characters should be transparent PNGs of variable width, but height 971.
