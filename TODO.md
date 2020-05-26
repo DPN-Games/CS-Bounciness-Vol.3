@@ -34,6 +34,10 @@ Mark things you aren't sure about with a superscript `?`.
   * CS Bounciness 2
 * ~~Remove shitty anime eyes from characters (the joke was never funny).~~
 * Get HD photos for all characters and backgrounds.
+* Make sure all characters are about the same size on screen, with some exceptions. (definitely larger than they are now)
+  * Exceptions:
+    * Arceus should be shorter than everyone else.
+    * Young CS should be chibi-size.
 * Standarize resolutions for backgrounds and characters.
   * Backgrounds: 1920x1080
   * Characters: ???x???
