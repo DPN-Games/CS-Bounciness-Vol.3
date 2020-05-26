@@ -73,3 +73,5 @@ image richard = "characters/richard.png"
 image corndog = "characters/corn_worker.png"
 image grrx = "characters/grrx_worker.png"
 image cashier = "characters/kashier.png"
+image fatherdigbick = "characters/digbick.png"
+
