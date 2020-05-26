@@ -298,6 +298,7 @@ label bordercrossing:
 
     hide arceus with easeoutright
     hide windy with easeoutleft
+    show black with fade
     hide border with fade
     show outsidehortons with fade
 
@@ -327,9 +328,13 @@ label bordercrossing:
     hide windy with easeoutleft
 
     CS "I have a lot of video editing experience, maybe I can get a joj... er, a job there."
+
+    hide insidehortons with dissolve
+
     "{i}CS walks into the studio and asks for a job.{/i}"
 
     show linusoffice with fade
+    hide black with dissolve
     show linus at center with easeintop
 
     Linus "Sure, you can have a job, just show us proof of citizenship and you're ready to go!"
@@ -338,10 +343,11 @@ label bordercrossing:
     CS "Ummmm... I'll be right back."
 
     hide linus with easeoutbottom
+    show black with fade
     hide linusoffice with dissolve
 
     "{i}CS leaves and talks to Windy.{/i}"
-    show insidehort
+    show insidehortons with fade
     show windy at center with easeintop
 
     CS "I need to get proof of citizenship, or at least fake proof of citizenship before I can get a joj here."
@@ -373,5 +379,6 @@ label wedding:
     hide fatherdigbick with easeoutbottom
     hide weddingscene
     hide helipad
+    hide black
 
     # jump trueend
