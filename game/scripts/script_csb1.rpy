@@ -221,7 +221,7 @@ label needfoundationrepair:
     "{i}CS leaves.{/i}"
     
     hide cs
-    show ed at left
+    show ed at right
     
     Ed "Come on in, guys. CS left."
     
@@ -233,11 +233,11 @@ label needfoundationrepair:
     "{i} The three HoH SiS workers go upstairs. {/i}"
     
     scene csroom
-    show wesley at right
+    show wesley at left
     
     Wesley "Wow, I didn't know CS plays Nekopara!"
     
-    show ed at left
+    show ed at right
     
     Ed "CS surrrre loves those cute catgirls~ <3"
     
@@ -245,25 +245,25 @@ label needfoundationrepair:
     
     Wesley "Alright, but now what should we do?"
     
-    show richard at right
+    show richard
     
     Rich "How about we mess with his laptop?"
     
     hide richard
-    show ed at left
+    show ed at right
     
     Ed "Ehh..."
     Ed "Alright! Let's get sabotagin'!"
     "{i}Ed launches the craptop.{/i}"
     Ed "Hehe... He won't know what hit him."
     
-    show wesley at right
+    show wesley at left
     
     Wesley "Quick, Let's get out of here before he comes back!"
     
     hide wesley
     scene dooropen
-    show wesley at right
+    show wesley at left
     
     Wesley "Hurry up!"
     
@@ -277,7 +277,10 @@ label needfoundationrepair:
     Rich "Lemme call our JoJ UFO."
     
     Character("Ed, Wesley and Richard") "I'm beaming up!"
-    
+
+    show beam at right with dissolve
+    hide richard with easeouttop
+
     scene doorclosed
     show cs at left
     
