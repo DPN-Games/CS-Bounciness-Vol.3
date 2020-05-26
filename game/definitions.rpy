@@ -73,4 +73,4 @@ image corndog = "characters/corn_worker.png"
 image grrx = "characters/grrx_worker.png"
 image cashier = "characters/kashier.png"
 image fatherdigbick = "characters/digbick.png"
-
+image borderguard = "characters/canadian_border_guard.png"
