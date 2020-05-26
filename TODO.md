@@ -41,13 +41,13 @@ Mark things you aren't sure about with a superscript `?`.
     * ~~wedding~~
     * craptop_desktop, error, sad, updating
     * ~~jail_cell and jail_inside~~
-* Make sure all characters are about the same size on screen, with some exceptions. (definitely larger than they are now)
+* ~~Make sure all characters are about the same size on screen, with some exceptions. (definitely larger than they are now)~~
   * Exceptions:
     *~~Arceus should be shorter than everyone else.~~
     * Young CS should be chibi-size.
 * Standarize resolutions for backgrounds and characters.
   * Backgrounds: 1920x1080
-  * Characters: ???x971
+  * ~~Characters: ???x971~~
 * Customize the GUI (needs basically an entire overhaul.)
 
 ## Coding *(AWK/Arc)*
