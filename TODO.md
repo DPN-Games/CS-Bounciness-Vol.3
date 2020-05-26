@@ -37,11 +37,10 @@ Mark things you aren't sure about with a superscript `?`.
   * Backgrounds
     * cs_house
     * cs_bedroom1 and cs_bedroom2
-    * factory
-    * jail_cell
-    * wedding
+    * ~~factory~~
+    * ~~wedding~~
     * craptop_desktop, error, sad, updating
-    * jail_cell and jail_inside
+    * ~~jail_cell and jail_inside~~
 * Make sure all characters are about the same size on screen, with some exceptions. (definitely larger than they are now)
   * Exceptions:
     *~~Arceus should be shorter than everyone else.~~
