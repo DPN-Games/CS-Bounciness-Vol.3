@@ -48,7 +48,7 @@ Mark things you aren't sure about with a superscript `?`.
     * Young CS should be chibi-size.
 * Standarize resolutions for backgrounds and characters.
   * Backgrounds: 1920x1080
-  * Characters: ???x???
+  * Characters: ???x971
 * Customize the GUI (needs basically an entire overhaul.)
 
 ## Coding *(AWK/Arc)*
