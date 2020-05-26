@@ -30,23 +30,23 @@ Mark things you aren't sure about with a superscript `?`.
 
 ## Graphics *(Digi/Pakoo)*
 * Remaster any sprites and backgrounds needed for CSB1/2.
-  * CS Bounciness 1
+  * ~~CS Bounciness 1~~
   * CS Bounciness 2
 * ~~Remove shitty anime eyes from characters (the joke was never funny).~~
 * Get HD photos for all characters and backgrounds.
   * Backgrounds
-    * cs_house
-    * cs_bedroom1 and cs_bedroom2
+    * ~~cs_house~~
+    * ~~cs_bedroom1 and cs_bedroom2~~
     * ~~factory~~
     * ~~wedding~~
-    * craptop_desktop, error, sad, updating
+    * ~~craptop_desktop, error, sad, updating~~
     * ~~jail_cell and jail_inside~~
 * ~~Make sure all characters are about the same size on screen, with some exceptions. (definitely larger than they are now)~~
   * Exceptions:
     *~~Arceus should be shorter than everyone else.~~
-    * Young CS should be chibi-size.
+    * ~~Young CS should be chibi-size.~~
 * Standarize resolutions for backgrounds and characters.
-  * Backgrounds: 1920x1080
+  * ~~Backgrounds: 1920x1080~~
 <<<<<<< Updated upstream
   * ~~Characters: ???x971~~
 =======
