@@ -50,6 +50,7 @@ image jailinside = "background/jail_inside.jpg"
 image border = "background/canadian_border.png"
 image outsidehortons = "background/outside_tim_hortons.png"
 image insidehortons = "background/inside_tim_hortons.png"
+image wedding = "background/wedding.png"
 
 # Movies.
 # image name = "dir/file.filetype"
