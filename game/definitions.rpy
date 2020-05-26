@@ -27,9 +27,9 @@ define Beam = Character("Beam")
 # Image variables should be all lowercase with underscores (snake case).
 image csroom = "background/cs_bedroom1.png"
 image csroomwindow = "background/cs_bedroom2.png"
-image craptop1 = "background/craptop_error.jpg"
+image craptop1 = "background/craptop_error.png"
 image craptop2 = "background/craptop_desktop.png"
-image craptop3 = "background/craptop_updating.jpg"
+image craptop3 = "background/craptop_updating.png"
 image craptop4 = "background/craptop_desktop.png"
 image cscaroutside = "background/car_driveway.png"
 image cscarinside = "background/car_inside.png"
