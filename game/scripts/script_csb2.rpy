@@ -298,14 +298,13 @@ label bordercrossing:
 
     hide arceus with easeoutright
     hide windy with easeoutleft
-    show black with fade
-    hide border with fade
     show outsidehortons with fade
+    hide border
 
     "{i}At the Tim Horton's, Windy and CS share a donut. After they finish the donut, Windy steals a kiss.{/i}"
 
-    hide outsidehortons with dissolve
     show insidehortons with fade
+    hide outsidehortons
 
     CS "Wow, that was great!"
     "{i}Windy blushes...{/i}"
@@ -329,7 +328,7 @@ label bordercrossing:
 
     CS "I have a lot of video editing experience, maybe I can get a joj... er, a job there."
 
-    hide insidehortons with dissolve
+    show black with dissolve
 
     "{i}CS walks into the studio and asks for a job.{/i}"
 
@@ -343,11 +342,9 @@ label bordercrossing:
     CS "Ummmm... I'll be right back."
 
     hide linus with easeoutbottom
-    show black with fade
     hide linusoffice with dissolve
 
     "{i}CS leaves and talks to Windy.{/i}"
-    show insidehortons with fade
     show windy at center with easeintop
 
     CS "I need to get proof of citizenship, or at least fake proof of citizenship before I can get a joj here."
@@ -358,7 +355,8 @@ label bordercrossing:
     CS "Well, I know Nova lives around here, so we can have the wedding at their house."  # Switched this to "their", no one should question that.
 
     hide windy with easeoutbottom
-    hide insidehortons with dissolve
+    show black with dissolve
+    hide insidehortons
     jump wedding
 
 label wedding:
