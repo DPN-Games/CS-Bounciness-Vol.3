@@ -7,29 +7,31 @@ label csb1_start:
 
     CS "Welp, time to start up the ol' Craptop."
 
-    scene craptop1
+    scene craptop_error
     show cs at left
 
     Craptop "Your PC sux. lol."
     
-    scene craptop2
+    scene craptop_desktop  # TODO: Add craptop_discord
     show cs at left
 
     Character("Sticky Note") "Delete the CS Discord."
     CS "Eh, maybe tomorrow."
     
-    scene craptop3
+    scene craptop_updating
     show cs at left
 
     Craptop "Downloading update 200/13."
     show cs at left
 
     Craptop "Update complete."
-    scene craptop4    
+    scene craptop_desktop
     hide cs at left
     show cshappy at left
 
     CS "OoOoOoOoO yes!"
+    scene craptop_car
+
     CS "Time to watch car crash videos for the next couple hours!"
     "Two hours later..."   
 
@@ -160,13 +162,16 @@ label homefromwalmart:
     CS "You know, I haven't put out a YTP in a while. I should work on one of my in-progress ones."
     "CS walks to his craptop and opens up Premiere."
     
-    scene craptop4
+    scene craptop_edit
 
     CS "Ooh, here's the one from my last editing stream. People would be excited to finally see this as a finished product."
     "CS watches the in-progress video."
     CS "This is pretty good, but I'm feeling uninspired. I don't know where to go from here..."
     CS "I know! I should watch some other YTPs for inspiration."
     "CS opens up YouTube and begins watching YTPs. After a while, CS runs into some old YTPs."
+
+    scene craptop_ytp
+
     CS "Man, it was so easy back then. All you needed was Windows Movie Maker and some effects. If only it was that easy now......"
     CS "Oh look, a flashback. What a coincidence..."
 
@@ -182,7 +187,7 @@ label homefromwalmart:
     YCS "Ohhhhhh YeEeEeEeEess! This is lookin' good!"
     
     hide youngcs
-    scene craptop4 with irisin
+    scene craptop_edit with irisin
     hide csroom    
     show cs at left
     
@@ -194,7 +199,7 @@ label needfoundationrepair:
     # TODO: Put like, a crash sound and a particle effect here.  
     scene csroom
     show cs at right
-    hide craptop4
+    hide craptop_edit
     CS "Woah. I was dreaming so long that the foundation fell apart. My house just fell to the side."
     CS "I really need to get some foundation repair."
     CS "Better call HoH SiS!"
