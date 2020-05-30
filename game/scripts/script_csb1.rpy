@@ -166,7 +166,7 @@ label homefromwalmart:
     "CS watches the in-progress video."
     CS "This is pretty good, but I'm feeling uninspired. I don't know where to go from here..."
     CS "I know! I should watch some other YTPs for inspiration."
-    "CS opens up youtube and begins watching YTPs. After a while, CS runs into some old YTPs."
+    "CS opens up YouTube and begins watching YTPs. After a while, CS runs into some old YTPs."
     CS "Man, it was so easy back then. All you needed was Windows Movie Maker and some effects. If only it was that easy now......"
     CS "Oh look, a flashback. What a coincidence..."
 
@@ -182,16 +182,19 @@ label homefromwalmart:
     YCS "Ohhhhhh YeEeEeEeEess! This is lookin' good!"
     
     hide youngcs
-    scene csroom with irisout
+    scene craptop4 with irisin
+    hide csroom    
     show cs at left
     
     CS "Oh. Flashback over."
     
-    show cs at right
     jump needfoundationrepair
 
 label needfoundationrepair:
     # TODO: Put like, a crash sound and a particle effect here.  
+    scene csroom
+    show cs at right
+    hide craptop4
     CS "Woah. I was dreaming so long that the foundation fell apart. My house just fell to the side."
     CS "I really need to get some foundation repair."
     CS "Better call HoH SiS!"
@@ -217,10 +220,15 @@ label needfoundationrepair:
     
     Ed "Alright, that will be 200,000 Embers."
     CS "Okay, I guess they already told you what I need done... lemme get my wallet."
+    CS "Hang on a sec, didn't they say I could pay afterwards?"
+    Ed "Yeah, well. Corporate policies just changed 5 seconds ago. Pay up."
+    hide cs with easeoutleft
+    "{i}A few moments later{i}"
+    show cs at left with easeinleft
     CS "Here you go. I'll get out of you guys' hair while you work."
-    "{i}CS leaves.{/i}"
+    "{i}CS leaves after paying 200,000 Embers.{/i}"
     
-    hide cs
+    hide cs with easeoutright
     show ed at right
     
     Ed "Come on in, guys. CS left."

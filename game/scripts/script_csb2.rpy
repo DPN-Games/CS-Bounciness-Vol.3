@@ -83,8 +83,8 @@ label csb2_start:
 
         hide cs with easeoutleft
         hide wesley with easeoutright
-        hide helipad with fade
         scene office1 with fade
+        hide helipad
 
         "{i}CS uses the magic of YTP to make Wesley shoot his employees.{/i}"
 
@@ -106,11 +106,11 @@ label beforejail:
 
         hide cs with easeoutleft
         hide copguy with easeoutright
-        hide office1 with dissolve
         jump jail
 
 label jail:
-    scene jailinside with fade #TODO jail_inside is too big
+    scene jailinside with fade
+    hide office1
     show cs at left with easeinleft
     show copguy at right with easeinright
 
@@ -138,11 +138,11 @@ label arceuscellmate:
     CS "Alrighty then..."
     CS "Hello, Arceus."
 
-    show arceus at center with easeintop
+    show arceus at right with easeinright
 
     Arceus "Aye, Boss. .w."
     CS "So what are you in for?"
-    Arceus "Didn't you hear the cop? \ I'm in for cutting a tax collector with my nose."
+    Arceus "Didn't you hear the cop? I'm in for cutting a tax collector with my nose."
     CS "Well, I can see how. Your nose IS big enough."
     Arceus "And from my recent playthrough of CSBounciness, I assume you're in for killing workers at HoHSiS."
     CS "I was 100 percent unsatisfied."
@@ -156,8 +156,8 @@ label arceuscellmate:
     Arceus "Windy? Eh... I mean,  he can drive a mean car... sure, he may be of use to us."
     CS "Alright then, let's get going!"
 
-    hide arceus with easeoutbottom
-    hide cs with easeoutleft
+    hide arceus with dissolve
+    hide cs with dissolve
     jump breakout
 
 label windycellmate:
@@ -168,7 +168,7 @@ label windycellmate:
 
     CS "Hey Windy."
 
-    show windy at center with easeintop
+    show windy at right with dissolve
 
     Windy "Hey..."
     CS "So what're you in for?"
@@ -185,13 +185,14 @@ label windycellmate:
     CS "I think I have some ideas, I've played a LOT of the escapists."
     Windy "Works for me, let's do this!"
 
-    hide cs with easeoutleft
-    hide windy  with easeoutbottom
+    hide cs with dissolve
+    hide windy  with dissolve
     jump breakout
 
 
 label breakout:
-    show arceus at center with easeintop
+    show arceus at right with dissolve
+    show cs at left with dissolve
 
     Arceus "So, what's the plan? I've been tryna break outta here for 5 years."
     CS "Well, for a start. I need to get a feel of the routine here."
@@ -204,7 +205,8 @@ label breakout:
     CS "You kidding me? I'm gonna shit myself 'cuz this is scary as hell."
     Arceus "Fair enough."
 
-    hide arceus with easeoutbottom
+    hide cs with dissolve
+    hide arceus with dissolve
 
     "{i}The day ends, the next day progresses, CS and Arceus gather the required essentials for their escape. Along the way, they inform Windy, who more than happily complies with the plan.{/i}" 
     "{i}The next evening...{/i}"
@@ -214,7 +216,7 @@ label breakout:
 
     Arceus "Uniforms, check."
 
-    show windy  at left with easeinleft
+    show windy at left with easeinleft
 
     Windy "Spoons, check."
     CS "Extra shorts..."
@@ -266,7 +268,7 @@ label bordercrossing:
     scene border with fade
 
     "{i}CS, Windy, and Arceus get to the border crossing.{/i}"
-    "{i}A border guard appears.{/i}"
+    "{i}A wild border guard appears.{/i}"
 
     show borderguard at center with easeintop
 
@@ -290,8 +292,7 @@ label bordercrossing:
     CS "The former, I mean, I've been single for a while, so I'll take what I can get."
     Windy "Well, I suppose I have good news for you then..."
 
-    hide windy with easeoutbottom
-    show windy at left with easeinleft
+    show windy at left with move
     show arceus at right with easeinright
 
     Arceus "Are you lovebirds hungry? I'm gonna stop for food at Tim Horton's."
@@ -309,15 +310,14 @@ label bordercrossing:
     CS "Wow, that was great!"
     "{i}Windy blushes...{/i}"
 
-    show windy at center with easeintop
+    show windy at center with dissolve
 
     Windy "Thanks..."
     CS "Oh, I was talking about the donut but the kiss was good too."
     CS "About 88 percent as good as the donut."
     Windy "I'll take it."
 
-    hide windy with easeoutbottom
-    show windy at left with easeinleft
+    show windy at left with move
     show arceus at right with easeinright
 
     Arceus "Sorry to interrupt you two, but we may have a problem, that donut cost me the last of my money, so we need to find a way to make some cash."
@@ -334,18 +334,18 @@ label bordercrossing:
 
     show linusoffice with fade
     hide black with dissolve
-    show linus at center with easeintop
+    show linus at center with moveinright
 
     Linus "Sure, you can have a job, just show us proof of citizenship and you're ready to go!"
     CS "Colour is spelled with a u, eh."
     Linus "I need actual papers. The last time I hired someone who used that as proof of citizenship, I got fined and had to sell one of my thousands of GTX Titans."
     CS "Ummmm... I'll be right back."
 
-    hide linus with easeoutbottom
+    hide linus with moveoutright
     hide linusoffice with dissolve
 
     "{i}CS leaves and talks to Windy.{/i}"
-    show windy at center with easeintop
+    show windy at center with dissolve
 
     CS "I need to get proof of citizenship, or at least fake proof of citizenship before I can get a joj here."
     "{i}Windy gets an idea and begins to blush.{/i}"
@@ -354,7 +354,7 @@ label bordercrossing:
     Windy "We can have a cheap wedding at one of your Canadian fan's houses."
     CS "Well, I know Nova lives around here, so we can have the wedding at their house."  # Switched this to "their", no one should question that.
 
-    hide windy with easeoutbottom
+    hide windy with dissolve
     show black with dissolve
     hide insidehortons
     jump wedding
@@ -363,7 +363,7 @@ label wedding:
     show weddingscene with fade
     show cs at left with easeinleft
     show windy at right with easeinright
-    show fatherdigbick at center with easeintop
+    show fatherdigbick at center with zoomin
 
     # TODO: Glitch text formatting on the NAME REDACTEDs.
 
@@ -374,9 +374,6 @@ label wedding:
 
     hide cs with easeoutleft
     hide windy with easeoutright
-    hide fatherdigbick with easeoutbottom
-    hide weddingscene
-    hide helipad
-    hide black
+    hide fatherdigbick with zoomout
 
     # jump trueend
