@@ -8,7 +8,7 @@ label csb2_start:
     CS "You'll pay for what you did!"
     
     hide richard
-    show wesley at right
+    show wesflip at right
     
     Wesley "Do you want a refund?"
     CS "I'll refund your face to the floor!"
@@ -32,7 +32,7 @@ label csb2_start:
         CS "Take this!"
         "{i}CS punches Wesley and knocks him out.{/i}"
 
-        hide wesley with easeoutright
+        hide wesflip with easeoutright
 
         CS "That'll teach you not to mess with a nerd's computer!"
 
@@ -51,9 +51,9 @@ label csb2_start:
         CS "Like hell I will!"
 
         hide cs with easeoutleft
-        hide wesley with easeoutright
-        hide helipad with fade
+        hide wesflip with easeoutright
         scene office1 with fade
+        hide helipad with fade
         show ed at right with easeinright
 
         Ed "911? Help! My boss just got attacked by a customer and now they're fighting right here in the office!"
@@ -69,7 +69,7 @@ label csb2_start:
     label kick:
         $ renpy.movie_cutscene("kick.ogv")
 
-        hide wesley with easeoutright
+        hide wesflip with easeoutright
         show ed at right with easeinright
         
         Ed "Hello, 911? My boss just got kicked off of our roof by a disgruntled customer and appears to be dying! Send help!"
@@ -82,7 +82,7 @@ label csb2_start:
         CS "Take this!"
 
         hide cs with easeoutleft
-        hide wesley with easeoutright
+        hide wesflip with easeoutright
         scene office1 with fade
         hide helipad
 

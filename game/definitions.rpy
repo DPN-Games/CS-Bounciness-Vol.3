@@ -21,6 +21,8 @@ define BorderGuard = Character("Border Guard")
 define Linus = Character("Linus Sebastian", color = "#FE4C04")
 define FatherDigBick = Character("Father DigBick")
 define Beam = Character("Beam")
+define Arcflip = Character("Arceus", color = "#FFE878")
+define Wesflip = Character("Wesley")
 
 # Backgrounds.
 # Image name = "dir/file.filetype"
@@ -82,3 +84,5 @@ image cashier = "characters/kashier.png"
 image fatherdigbick = "characters/digbick.png"
 image borderguard = "characters/canadian_border_guard.png"
 image beam = "characters/ufobeam.png"
+image arcflip = "characters/arceus3251flip.png"
+image wesflip = "characters/wesleyflip.png"
