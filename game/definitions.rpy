@@ -52,6 +52,9 @@ image outsidehortons = "background/outside_tim_hortons.png"
 image insidehortons = "background/inside_tim_hortons.png"
 image weddingscene = "background/wedding.png"
 image linusoffice = "background/the_linus_group.png"
+image csdesk = "background/cs_desk.png"
+image linus_hallway = "background/linus_hallway.png"
+image microcenter = "background/microcenter.png"
 
 # Movies.
 # image name = "dir/file.filetype"
