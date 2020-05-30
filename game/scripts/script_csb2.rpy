@@ -138,7 +138,7 @@ label arceuscellmate:
     CS "Alrighty then..."
     CS "Hello, Arceus."
 
-    show arceus at right with easeinright
+    show arcflip at right with easeinright
 
     Arceus "Aye, Boss. .w."
     CS "So what are you in for?"
@@ -156,7 +156,7 @@ label arceuscellmate:
     Arceus "Windy? Eh... I mean,  he can drive a mean car... sure, he may be of use to us."
     CS "Alright then, let's get going!"
 
-    hide arceus with dissolve
+    hide arcflip with dissolve
     hide cs with dissolve
     jump breakout
 
@@ -191,7 +191,7 @@ label windycellmate:
 
 
 label breakout:
-    show arceus at right with dissolve
+    show arcflip at right with dissolve
     show cs at left with dissolve
 
     Arceus "So, what's the plan? I've been tryna break outta here for 5 years."
@@ -206,13 +206,13 @@ label breakout:
     Arceus "Fair enough."
 
     hide cs with dissolve
-    hide arceus with dissolve
+    hide arcflip with dissolve
 
     "{i}The day ends, the next day progresses, CS and Arceus gather the required essentials for their escape. Along the way, they inform Windy, who more than happily complies with the plan.{/i}" 
     "{i}The next evening...{/i}"
     CS "Key, check."
 
-    show arceus at right with easeinright
+    show arcflip at right with easeinright
 
     Arceus "Uniforms, check."
 
@@ -223,7 +223,7 @@ label breakout:
     CS "Check."
     CS "Alright men, let's get the heck out of here!"
 
-    hide arceus with easeoutright
+    hide arcflip with easeoutright
     hide windy with easeoutleft
 
     "{i}The plan goes off without a hitch, the three ditch their prison outfits, and put on their guard uniforms.{/i}" 
@@ -244,7 +244,7 @@ label breakout:
     "{i}The three dig their way out of the cell and make a break into the dark of the evening.{/i}"
     CS "Jeez... I didn't think that would actually work."
 
-    show arceus at right with easeinright
+    show arcflip at right with easeinright
 
     Arceus "You what?" 
 
@@ -259,7 +259,7 @@ label breakout:
     CS "Works for me, free healthcare."
     Arceus "Well, you have to live there for a few years before you get access to that, but you should last a few years without getting sick living on that healthy diet of Ritz and EZ cheese."
 
-    hide arceus with easeoutright
+    hide arcflip with easeoutright
     hide windy with easeoutleft
     hide jailcell with dissolve
     jump bordercrossing
@@ -274,13 +274,13 @@ label bordercrossing:
 
     BorderGuard "I'm going to need proof of citizenship, eh."
 
-    show arceus at right with easeinright
+    show arcflip at right with easeinright
 
     Arceus "Colour is spelled with a u, eh."
     BorderGuard "Works for me, eh."
 
     hide borderguard with easeoutbottom
-    hide arceus with easeoutright
+    hide arcflip with easeoutright
 
     CS "Now that we're over the border and can breathe easy, I wanted to ask you something Windy."
 
@@ -293,11 +293,11 @@ label bordercrossing:
     Windy "Well, I suppose I have good news for you then..."
 
     show windy at left with move
-    show arceus at right with easeinright
+    show arcflip at right with easeinright
 
     Arceus "Are you lovebirds hungry? I'm gonna stop for food at Tim Horton's."
 
-    hide arceus with easeoutright
+    hide arcflip with easeoutright
     hide windy with easeoutleft
     show outsidehortons with fade
     hide border
@@ -318,12 +318,12 @@ label bordercrossing:
     Windy "I'll take it."
 
     show windy at left with move
-    show arceus at right with easeinright
+    show arcflip at right with easeinright
 
     Arceus "Sorry to interrupt you two, but we may have a problem, that donut cost me the last of my money, so we need to find a way to make some cash."
     "{i}CS looks across the street to see Linus Media Group.{/i}"
 
-    hide arceus with easeoutright
+    hide arcflip with easeoutright
     hide windy with easeoutleft
 
     CS "I have a lot of video editing experience, maybe I can get a joj... er, a job there."
