@@ -24,8 +24,10 @@ Mark things you aren't sure about with a superscript `?`.
 * Have a scene in a courtroom in the style of Pheonix Wright
 #### Specific Jokes
 * Once the game starts "getting weird", CS tries to signal to his viewers that something's up by just, streaming at a normal time.
-* CS has to escape Canda, goes to Sweden, meets Joel
-* CS becomes a scurity guard at LTT and meets Barney from HL
+* CS has to escape Canada, goes to Sweden, meets Joel
+* CS becomes a security guard at LTT and meets Barney from HL
+* Have CS co-stream with Linus, use the meme image of Linus staring into the camera
+* Gotta make a Digi size joke
 #### People Who Still Need To Be Characters
 * Digi
 * AWK
