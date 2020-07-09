@@ -42,6 +42,8 @@ label csb2_start:
         CS "Dammit! Ed's calling the police! I gotta go after him!"
         Ed "911! Come quickly! He's chasing after me!"
 
+        hide ed with easeoutright
+  
         jump beforejail
 
     label chop:
@@ -53,7 +55,6 @@ label csb2_start:
         hide cs with easeoutleft
         hide wesflip with easeoutright
         scene office1 with fade
-        hide helipad with fade
         show ed at right with easeinright
 
         Ed "911? Help! My boss just got attacked by a customer and now they're fighting right here in the office!"
@@ -63,7 +64,7 @@ label csb2_start:
 
         CS "Dammit! Ed's calling the police! I need to finish this fast!"
         "{i}The fight continues.{/i}"
-
+        hide helipad with fade
         jump beforejail
 
     label kick:
@@ -75,6 +76,8 @@ label csb2_start:
         Ed "Hello, 911? My boss just got kicked off of our roof by a disgruntled customer and appears to be dying! Send help!"
         CS "Dammit! Ed's calling the police! I gotta go after him!"
         Ed "911! Come quickly! He's chasing after me!"
+
+        hide ed with easeoutright
 
         jump beforejail
 
@@ -95,9 +98,13 @@ label csb2_start:
         jump beforejail
 
 label beforejail:
-        "{i}The police arrive and CS runs away.{/i}"
-
+        hide cs with easeoutleft
+        hide wesflip with easeoutright
+        scene office1 with fade
+        hide helipad with fade
         hide ed with easeoutright
+        show cs at left with easeinleft
+        "{i}The police arrive and CS runs away.{/i}"
         show copguy at right with easeinright
 
         CopGuy "Hey! Get back here!"
