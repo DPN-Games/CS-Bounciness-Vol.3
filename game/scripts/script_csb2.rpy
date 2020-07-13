@@ -109,7 +109,7 @@ label beforejail:
 
         CopGuy "Hey! Get back here!"
         CS "You can't catch me, I'm the speedy Michael Rosen!"
-        "{i}As CS is not actually the speedy Michael Rosen, he goes to jail.{/i}"
+        "{i}As CS is not actually the speedy Michael Rosen, he goes to prison.{/i}"
 
         hide cs with easeoutleft
         hide copguy with easeoutright
